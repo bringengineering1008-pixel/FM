@@ -26,5 +26,29 @@ class BringIssueTenPostContractTests(unittest.TestCase):
         self.assertTrue(all(post["monetization_bridge"] for post in posts))
 
 
+class BringIssueCollectorCommandTests(unittest.TestCase):
+    def test_commands_are_reproducible_and_do_not_require_ffmpeg_merge(self):
+        from scripts.prepare_bringissue_ten_post_batch import (
+            asset_dir,
+            load_registry,
+            metadata_command,
+            subtitle_command,
+            video_command,
+        )
+
+        for post in load_registry()["posts"]:
+            dest = asset_dir(post)
+            self.assertTrue(dest.name.startswith("2026-08-22-"))
+            metadata = metadata_command(post, dest)
+            subtitles = subtitle_command(post, dest)
+            video = video_command(post, dest)
+            self.assertIn("--write-info-json", metadata)
+            self.assertIn("--write-auto-subs", subtitles)
+            self.assertIn(
+                "best[height<=480][ext=mp4]/best[height<=480]/worst", video
+            )
+            self.assertNotIn("--merge-output-format", video)
+
+
 if __name__ == "__main__":
     unittest.main()
