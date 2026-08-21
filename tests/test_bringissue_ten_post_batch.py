@@ -2,6 +2,8 @@ import json
 import unittest
 from pathlib import Path
 
+from PIL import Image
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "blog" / "batches" / "2026-08-22-bringissue-ten-posts.json"
@@ -32,6 +34,7 @@ class BringIssueCollectorCommandTests(unittest.TestCase):
             asset_dir,
             load_registry,
             metadata_command,
+            storyboard_command,
             subtitle_command,
             video_command,
         )
@@ -42,14 +45,22 @@ class BringIssueCollectorCommandTests(unittest.TestCase):
             metadata = metadata_command(post, dest)
             subtitles = subtitle_command(post, dest)
             video = video_command(post, dest)
+            storyboard = storyboard_command(post, dest)
             self.assertIn("--write-info-json", metadata)
             self.assertIn("--write-auto-subs", subtitles)
             language_index = subtitles.index("--sub-langs") + 1
             self.assertEqual(subtitles[language_index], "ko")
+            self.assertIn("--js-runtimes", video)
+            self.assertIn("node", video)
+            self.assertIn("--get-url", video)
             self.assertIn(
-                "best[height<=480][ext=mp4]/best[height<=480]/worst", video
+                "bestvideo[height<=480][vcodec^=avc1][ext=mp4]"
+                "/bestvideo[height<=480][ext=mp4]",
+                video,
             )
             self.assertNotIn("--merge-output-format", video)
+            self.assertIn("sb0", storyboard)
+            self.assertIn(str(dest / "storyboard.mhtml"), storyboard)
 
     def test_vtt_sampling_removes_tags_duplicates_and_keeps_thirty_second_marks(self):
         from scripts.prepare_bringissue_ten_post_batch import vtt_to_samples
@@ -73,6 +84,46 @@ class BringIssueCollectorCommandTests(unittest.TestCase):
             vtt_to_samples(source),
             ["[00:00] 첫 장면입니다", "[00:31] 다음 장면입니다"],
         )
+
+
+class BringIssueSceneTests(unittest.TestCase):
+    def test_each_post_has_ten_distinct_wide_scenes_and_contact_sheet(self):
+        from scripts.prepare_bringissue_ten_post_batch import asset_dir, load_registry
+
+        for post in load_registry()["posts"]:
+            folder = asset_dir(post)
+            scenes = sorted(folder.glob("scene-*.jpg"))
+            self.assertEqual(len(scenes), 10, post["slug"])
+            fingerprints = set()
+            for scene in scenes:
+                with Image.open(scene).convert("RGB") as image:
+                    self.assertGreaterEqual(image.width, 854)
+                    self.assertGreaterEqual(image.height, 480)
+                    self.assertAlmostEqual(image.width / image.height, 16 / 9, places=2)
+                    small = image.resize((16, 9)).convert("L")
+                    fingerprints.add(tuple(small.get_flattened_data()))
+            self.assertEqual(len(fingerprints), 10, post["slug"])
+            self.assertTrue((folder / "contact-sheet.jpg").exists())
+            self.assertTrue((folder / "scene-plan.json").exists())
+
+
+class BringIssueThumbnailTests(unittest.TestCase):
+    def test_each_post_has_mobile_readable_thumbnail_contract(self):
+        from scripts.prepare_bringissue_ten_post_batch import asset_dir, load_registry
+
+        for post in load_registry()["posts"]:
+            folder = asset_dir(post)
+            with Image.open(folder / "thumbnail.jpg") as image:
+                self.assertEqual(image.size, (1280, 720))
+            lines = [
+                line.strip()
+                for line in (folder / "thumbnail-text.txt")
+                .read_text(encoding="utf-8")
+                .splitlines()
+                if line.strip()
+            ]
+            self.assertEqual(len(lines), 2, post["slug"])
+            self.assertTrue(all(len(line) <= 18 for line in lines), post["slug"])
 
 
 if __name__ == "__main__":

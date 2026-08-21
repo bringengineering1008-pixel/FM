@@ -1,0 +1,85 @@
+{
+  "video_id": "JuK_D77HWpg",
+  "scenes": [
+    {
+      "number": 1,
+      "role": "도입",
+      "timestamp_seconds": 0,
+      "timestamp": "00:00",
+      "caption": "형님 안녕하십니까? 지금 시간이",
+      "storyboard_frame_seconds": 0.0
+    },
+    {
+      "number": 2,
+      "role": "계기",
+      "timestamp_seconds": 60,
+      "timestamp": "01:00",
+      "caption": "당근하게 뭐 특별하나?",
+      "storyboard_frame_seconds": 58.25
+    },
+    {
+      "number": 3,
+      "role": "첫 선택",
+      "timestamp_seconds": 156,
+      "timestamp": "02:36",
+      "caption": "일단 밥 먹고이 경계심을 무너뜨린",
+      "storyboard_frame_seconds": 155.333
+    },
+    {
+      "number": 4,
+      "role": "반응",
+      "timestamp_seconds": 240,
+      "timestamp": "04:00",
+      "caption": ">> 짜. 짜. 내공하면 안 돼. 뭐라고",
+      "storyboard_frame_seconds": 242.708
+    },
+    {
+      "number": 5,
+      "role": "질문",
+      "timestamp_seconds": 360,
+      "timestamp": "06:00",
+      "caption": "괜찮으세요? 네네. 그렇죠. 근데",
+      "storyboard_frame_seconds": 359.208
+    },
+    {
+      "number": 6,
+      "role": "결정적 행동",
+      "timestamp_seconds": 430,
+      "timestamp": "07:10",
+      "caption": ">> 농담이라고 하는데 왜 이런 사람이 다",
+      "storyboard_frame_seconds": 427.167
+    },
+    {
+      "number": 7,
+      "role": "반전 직전",
+      "timestamp_seconds": 570,
+      "timestamp": "09:30",
+      "caption": ">> 아 저번 달락 해야지 그 사람한테.",
+      "storyboard_frame_seconds": 572.792
+    },
+    {
+      "number": 8,
+      "role": "반전",
+      "timestamp_seconds": 660,
+      "timestamp": "11:00",
+      "caption": ">> 몰라. 왜 그냥 안 갈래요? 키역",
+      "storyboard_frame_seconds": 660.167
+    },
+    {
+      "number": 9,
+      "role": "후일담",
+      "timestamp_seconds": 780,
+      "timestamp": "13:00",
+      "caption": "거래하실 거 아닌가요 [음악]",
+      "storyboard_frame_seconds": 776.667
+    },
+    {
+      "number": 10,
+      "role": "결론",
+      "timestamp_seconds": 890,
+      "timestamp": "14:50",
+      "caption": "안녕하세요.",
+      "storyboard_frame_seconds": 893.167
+    }
+  ]
+}

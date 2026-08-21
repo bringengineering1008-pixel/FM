@@ -1,0 +1,85 @@
+{
+  "video_id": "gB7CRaVAi4U",
+  "scenes": [
+    {
+      "number": 1,
+      "role": "도입",
+      "timestamp_seconds": 0,
+      "timestamp": "00:00",
+      "caption": "제가 앉아 있는 곳은 운전석입니다.",
+      "storyboard_frame_seconds": 0.0
+    },
+    {
+      "number": 2,
+      "role": "계기",
+      "timestamp_seconds": 32,
+      "timestamp": "00:32",
+      "caption": "네. 안녕하세요. 오늘 아주 충격적인 [음악] 자동차를 선보이기 위해서",
+      "storyboard_frame_seconds": 29.792
+    },
+    {
+      "number": 3,
+      "role": "첫 선택",
+      "timestamp_seconds": 280,
+      "timestamp": "04:40",
+      "caption": "거울 같은 야 대단하다. 대단하다.",
+      "storyboard_frame_seconds": 283.025
+    },
+    {
+      "number": 4,
+      "role": "반응",
+      "timestamp_seconds": 590,
+      "timestamp": "09:50",
+      "caption": "야 우와 우와 감동이지 않습니까?",
+      "storyboard_frame_seconds": 588.394
+    },
+    {
+      "number": 5,
+      "role": "질문",
+      "timestamp_seconds": 1020,
+      "timestamp": "17:00",
+      "caption": "네. 천장 보이죠? 모두 투명하게",
+      "storyboard_frame_seconds": 1020.38
+    },
+    {
+      "number": 6,
+      "role": "결정적 행동",
+      "timestamp_seconds": 1230,
+      "timestamp": "20:30",
+      "caption": "끝이 아니라 여기 여기 보세요.요",
+      "storyboard_frame_seconds": 1228.925
+    },
+    {
+      "number": 7,
+      "role": "반전 직전",
+      "timestamp_seconds": 1620,
+      "timestamp": "27:00",
+      "caption": "고급스럽게 만들려고 아반떼나 아이오닉",
+      "storyboard_frame_seconds": 1623.67
+    },
+    {
+      "number": 8,
+      "role": "반전",
+      "timestamp_seconds": 1780,
+      "timestamp": "29:40",
+      "caption": "자석으로 딱 붙습니다. 아, 이거",
+      "storyboard_frame_seconds": 1780.079
+    },
+    {
+      "number": 9,
+      "role": "후일담",
+      "timestamp_seconds": 1890,
+      "timestamp": "31:30",
+      "caption": "다 갖고 있는 그 다랑아리를 이제는",
+      "storyboard_frame_seconds": 1891.799
+    },
+    {
+      "number": 10,
+      "role": "결론",
+      "timestamp_seconds": 2020,
+      "timestamp": "33:40",
+      "caption": "전기차로 가야겠죠. 그래서 자동차의",
+      "storyboard_frame_seconds": 2018.416
+    }
+  ]
+}

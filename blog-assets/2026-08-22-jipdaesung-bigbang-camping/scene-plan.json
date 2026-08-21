@@ -1,0 +1,85 @@
+{
+  "video_id": "C8bnSlLCh8g",
+  "scenes": [
+    {
+      "number": 1,
+      "role": "도입",
+      "timestamp_seconds": 35,
+      "timestamp": "00:35",
+      "caption": "[긴장] 원래",
+      "storyboard_frame_seconds": 39.808
+    },
+    {
+      "number": 2,
+      "role": "계기",
+      "timestamp_seconds": 200,
+      "timestamp": "03:20",
+      "caption": "[변명] 뮤직비디오 때문에 그래요",
+      "storyboard_frame_seconds": 199.04
+    },
+    {
+      "number": 3,
+      "role": "첫 선택",
+      "timestamp_seconds": 407,
+      "timestamp": "06:47",
+      "caption": "[깜짝] 음식을 해 먹는다고요?",
+      "storyboard_frame_seconds": 408.031
+    },
+    {
+      "number": 4,
+      "role": "반응",
+      "timestamp_seconds": 939,
+      "timestamp": "15:39",
+      "caption": "옛날 예능 스타일로 간다고 했잖아요?",
+      "storyboard_frame_seconds": 935.486
+    },
+    {
+      "number": 5,
+      "role": "질문",
+      "timestamp_seconds": 1165,
+      "timestamp": "19:25",
+      "caption": "[은근 겹칠 확률 높음] 겹칠 확률이 크잖아요",
+      "storyboard_frame_seconds": 1164.381
+    },
+    {
+      "number": 6,
+      "role": "결정적 행동",
+      "timestamp_seconds": 1290,
+      "timestamp": "21:30",
+      "caption": "[뭐 가져가지?] 잠깐만ㅋㅋㅋㅋ",
+      "storyboard_frame_seconds": 1293.757
+    },
+    {
+      "number": 7,
+      "role": "반전 직전",
+      "timestamp_seconds": 1500,
+      "timestamp": "25:00",
+      "caption": "[아뿔싸...]",
+      "storyboard_frame_seconds": 1502.749
+    },
+    {
+      "number": 8,
+      "role": "반전",
+      "timestamp_seconds": 2010,
+      "timestamp": "33:30",
+      "caption": "딱 좋네",
+      "storyboard_frame_seconds": 2010.299
+    },
+    {
+      "number": 9,
+      "role": "후일담",
+      "timestamp_seconds": 2760,
+      "timestamp": "46:00",
+      "caption": "[답답 MAX]",
+      "storyboard_frame_seconds": 2756.698
+    },
+    {
+      "number": 10,
+      "role": "결론",
+      "timestamp_seconds": 3420,
+      "timestamp": "57:00",
+      "caption": "20주년 축하해주신 모든 분들 감사하고 사랑합니다",
+      "storyboard_frame_seconds": 3423.48
+    }
+  ]
+}

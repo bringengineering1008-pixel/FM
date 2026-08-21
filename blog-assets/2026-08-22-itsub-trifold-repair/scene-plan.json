@@ -1,0 +1,85 @@
+{
+  "video_id": "48JWie_aMxI",
+  "scenes": [
+    {
+      "number": 1,
+      "role": "도입",
+      "timestamp_seconds": 0,
+      "timestamp": "00:00",
+      "caption": "요새 왁부가 핫하다며?",
+      "storyboard_frame_seconds": 0.0
+    },
+    {
+      "number": 2,
+      "role": "계기",
+      "timestamp_seconds": 30,
+      "timestamp": "00:30",
+      "caption": "관심이 많았기도 하고 펼치명 거의",
+      "storyboard_frame_seconds": 29.231
+    },
+    {
+      "number": 3,
+      "role": "첫 선택",
+      "timestamp_seconds": 93,
+      "timestamp": "01:33",
+      "caption": "화면을 딱 열잖아요. 예. 벌써 이제",
+      "storyboard_frame_seconds": 91.346
+    },
+    {
+      "number": 4,
+      "role": "반응",
+      "timestamp_seconds": 123,
+      "timestamp": "02:03",
+      "caption": "봐요. 접힐 때 화면이 우그러지죠.",
+      "storyboard_frame_seconds": 124.231
+    },
+    {
+      "number": 5,
+      "role": "질문",
+      "timestamp_seconds": 154,
+      "timestamp": "02:34",
+      "caption": "삼성케어 플러스가 안 되냐?",
+      "storyboard_frame_seconds": 153.462
+    },
+    {
+      "number": 6,
+      "role": "결정적 행동",
+      "timestamp_seconds": 185,
+      "timestamp": "03:05",
+      "caption": "금액을 들으면 충격 받을 것 같아서",
+      "storyboard_frame_seconds": 186.346
+    },
+    {
+      "number": 7,
+      "role": "반전 직전",
+      "timestamp_seconds": 216,
+      "timestamp": "03:36",
+      "caption": "50%라고 해도 디스플레이를",
+      "storyboard_frame_seconds": 215.577
+    },
+    {
+      "number": 8,
+      "role": "반전",
+      "timestamp_seconds": 248,
+      "timestamp": "04:08",
+      "caption": "거의 비ạc고 배터리 교체 비용도 만",
+      "storyboard_frame_seconds": 248.462
+    },
+    {
+      "number": 9,
+      "role": "후일담",
+      "timestamp_seconds": 495,
+      "timestamp": "08:15",
+      "caption": ">> 바닥으로이 정도 높이였어요.이",
+      "storyboard_frame_seconds": 493.269
+    },
+    {
+      "number": 10,
+      "role": "결론",
+      "timestamp_seconds": 555,
+      "timestamp": "09:15",
+      "caption": "디스플레이가 고장나거나 이런 상황이",
+      "storyboard_frame_seconds": 555.385
+    }
+  ]
+}

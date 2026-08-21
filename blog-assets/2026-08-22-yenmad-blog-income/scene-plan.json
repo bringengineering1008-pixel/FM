@@ -1,0 +1,85 @@
+{
+  "video_id": "BWVGEhf17P8",
+  "scenes": [
+    {
+      "number": 1,
+      "role": "도입",
+      "timestamp_seconds": 0,
+      "timestamp": "00:00",
+      "caption": "여러분 세상에는 두 가지 종류의",
+      "storyboard_frame_seconds": 0.0
+    },
+    {
+      "number": 2,
+      "role": "계기",
+      "timestamp_seconds": 31,
+      "timestamp": "00:31",
+      "caption": "올려요. 그리고 글 안에 그 상품을",
+      "storyboard_frame_seconds": 29.584
+    },
+    {
+      "number": 3,
+      "role": "첫 선택",
+      "timestamp_seconds": 93,
+      "timestamp": "01:33",
+      "caption": "제가 추천드리는 방법은 블로그",
+      "storyboard_frame_seconds": 93.683
+    },
+    {
+      "number": 4,
+      "role": "반응",
+      "timestamp_seconds": 155,
+      "timestamp": "02:35",
+      "caption": "제품을 소개하는 글이랑 이미지가 뚝딱",
+      "storyboard_frame_seconds": 152.851
+    },
+    {
+      "number": 5,
+      "role": "질문",
+      "timestamp_seconds": 218,
+      "timestamp": "03:38",
+      "caption": "나오잖아요. 이건 헤드 중앙에 쿨링",
+      "storyboard_frame_seconds": 216.95
+    },
+    {
+      "number": 6,
+      "role": "결정적 행동",
+      "timestamp_seconds": 280,
+      "timestamp": "04:40",
+      "caption": "눌러서 바로 구매 페이지로 넘어가고이",
+      "storyboard_frame_seconds": 281.05
+    },
+    {
+      "number": 7,
+      "role": "반전 직전",
+      "timestamp_seconds": 342,
+      "timestamp": "05:42",
+      "caption": "휴대용 선풍기를 팔아보고 싶다라고",
+      "storyboard_frame_seconds": 340.218
+    },
+    {
+      "number": 8,
+      "role": "반전",
+      "timestamp_seconds": 405,
+      "timestamp": "06:45",
+      "caption": "뭐냐면요. 내 기존 블로그 말투를",
+      "storyboard_frame_seconds": 404.317
+    },
+    {
+      "number": 9,
+      "role": "후일담",
+      "timestamp_seconds": 435,
+      "timestamp": "07:15",
+      "caption": "않고 결국에는 돈도 안 되는 거죠.",
+      "storyboard_frame_seconds": 433.901
+    },
+    {
+      "number": 10,
+      "role": "결론",
+      "timestamp_seconds": 465,
+      "timestamp": "07:45",
+      "caption": "이렇게 모든 기회가 잘 맞아떨어지는",
+      "storyboard_frame_seconds": 463.485
+    }
+  ]
+}

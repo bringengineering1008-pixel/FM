@@ -1,0 +1,85 @@
+{
+  "video_id": "6JOhl0WhRxw",
+  "scenes": [
+    {
+      "number": 1,
+      "role": "도입",
+      "timestamp_seconds": 30,
+      "timestamp": "00:30",
+      "caption": ">> 일본에서 갤럭시 폴드는 얼마나 팔리고",
+      "storyboard_frame_seconds": 29.561
+    },
+    {
+      "number": 2,
+      "role": "계기",
+      "timestamp_seconds": 90,
+      "timestamp": "01:30",
+      "caption": ">> 내돈 내산으로 쓰고 있는 진성 갤럭시",
+      "storyboard_frame_seconds": 88.683
+    },
+    {
+      "number": 3,
+      "role": "첫 선택",
+      "timestamp_seconds": 180,
+      "timestamp": "03:00",
+      "caption": "일본에서도 갤폴드 품절 대란 등등",
+      "storyboard_frame_seconds": 177.366
+    },
+    {
+      "number": 4,
+      "role": "반응",
+      "timestamp_seconds": 240,
+      "timestamp": "04:00",
+      "caption": ">> 512기가 똑같이 9월 21일.",
+      "storyboard_frame_seconds": 236.488
+    },
+    {
+      "number": 5,
+      "role": "질문",
+      "timestamp_seconds": 400,
+      "timestamp": "06:40",
+      "caption": "잘 팔린다. 불티난다. 아, 잘",
+      "storyboard_frame_seconds": 404.0
+    },
+    {
+      "number": 6,
+      "role": "결정적 행동",
+      "timestamp_seconds": 480,
+      "timestamp": "08:00",
+      "caption": "올렸지만은 여러분 일본은 기본적으로",
+      "storyboard_frame_seconds": 482.829
+    },
+    {
+      "number": 7,
+      "role": "반전 직전",
+      "timestamp_seconds": 590,
+      "timestamp": "09:50",
+      "caption": "이게 256기 갤폴드거든요. 가격이",
+      "storyboard_frame_seconds": 591.22
+    },
+    {
+      "number": 8,
+      "role": "반전",
+      "timestamp_seconds": 680,
+      "timestamp": "11:20",
+      "caption": "아닙니다. 엄밀하게 말해서요.",
+      "storyboard_frame_seconds": 679.902
+    },
+    {
+      "number": 9,
+      "role": "후일담",
+      "timestamp_seconds": 960,
+      "timestamp": "16:00",
+      "caption": ">> 아 사실 아닐 것이다라는 거보다 조금",
+      "storyboard_frame_seconds": 955.805
+    },
+    {
+      "number": 10,
+      "role": "결론",
+      "timestamp_seconds": 1140,
+      "timestamp": "19:00",
+      "caption": "있잖아 진짜 뭐 법적으로 그 인기가",
+      "storyboard_frame_seconds": 1143.024
+    }
+  ]
+}
