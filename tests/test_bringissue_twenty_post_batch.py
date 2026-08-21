@@ -55,5 +55,34 @@ class BringIssueTwentyPostContractTests(unittest.TestCase):
         self.assertEqual(posts[0]["slug"], "avengers-doomsday-doctor-doom")
 
 
+class BringIssueHighResolutionCollectorTests(unittest.TestCase):
+    def test_commands_preserve_metadata_subtitles_and_native_video_quality(self):
+        from scripts.prepare_bringissue_twenty_post_batch import (
+            asset_dir,
+            load_registry,
+            metadata_command,
+            subtitle_command,
+            video_command,
+        )
+
+        for post in load_registry()["posts"]:
+            dest = asset_dir(post)
+            self.assertTrue(dest.name.startswith(post["scheduled_at"][:10]))
+
+            metadata = metadata_command(post)
+            self.assertIn("--write-info-json", metadata)
+            self.assertIn(str(dest / "source.%(ext)s"), metadata)
+
+            subtitles = subtitle_command(post)
+            self.assertIn("--write-auto-subs", subtitles)
+            self.assertIn("ko.*,ko,en.*", subtitles)
+
+            video = video_command(post)
+            self.assertIn("--js-runtimes", video)
+            format_value = video[video.index("-f") + 1]
+            self.assertIn("bestvideo[height<=2160]", format_value)
+            self.assertNotIn("--merge-output-format", video)
+
+
 if __name__ == "__main__":
     unittest.main()
