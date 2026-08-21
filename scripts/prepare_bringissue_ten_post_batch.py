@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import argparse
+import html
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -41,7 +43,7 @@ def subtitle_command(post: dict, dest: Path) -> list[str]:
         "--write-auto-subs",
         "--write-subs",
         "--sub-langs",
-        "ko.*,ko,en.*",
+        "ko",
         "--sub-format",
         "vtt",
         "-o",
@@ -77,17 +79,61 @@ def run_command(command: list[str]) -> None:
     subprocess.run(command, cwd=ROOT, check=True)
 
 
+def timestamp_seconds(value: str) -> float:
+    hours, minutes, seconds = value.replace(",", ".").split(":")
+    return int(hours) * 3600 + int(minutes) * 60 + float(seconds)
+
+
+def vtt_to_samples(vtt_text: str, interval_seconds: int = 30) -> list[str]:
+    cue_pattern = re.compile(
+        r"(?m)^(\d{2}:\d{2}:\d{2}[.,]\d{3})\s+-->[^\n]*\n(.+?)(?=\n\n|\Z)",
+        re.DOTALL,
+    )
+    samples = []
+    next_sample = 0.0
+    previous_text = ""
+    for match in cue_pattern.finditer(vtt_text.replace("\r\n", "\n")):
+        start = timestamp_seconds(match.group(1))
+        text = re.sub(r"<[^>]+>", "", match.group(2))
+        text = html.unescape(" ".join(text.split())).strip()
+        if not text or text == previous_text:
+            continue
+        previous_text = text
+        if start < next_sample:
+            continue
+        minutes, seconds = divmod(int(start), 60)
+        samples.append(f"[{minutes:02d}:{seconds:02d}] {text}")
+        next_sample = start + interval_seconds
+    return samples
+
+
+def write_transcript_sample(post: dict, dest: Path) -> None:
+    preferred = dest / "source.ko.vtt"
+    candidates = [preferred] if preferred.exists() else sorted(dest.glob("source*.vtt"))
+    if not candidates:
+        raise FileNotFoundError(f"No subtitle file for {post['slug']}")
+    lines = vtt_to_samples(candidates[0].read_text(encoding="utf-8-sig"))
+    if not lines:
+        raise ValueError(f"No transcript samples for {post['slug']}")
+    (dest / "transcript-sampled.txt").write_text(
+        "\n".join(lines) + "\n", encoding="utf-8"
+    )
+
+
 def collect(stage: str, slug: str | None = None) -> None:
     command_builders = {
         "metadata": metadata_command,
         "subtitles": subtitle_command,
         "video": video_command,
     }
-    builder = command_builders[stage]
     for post in selected_posts(slug):
         dest = asset_dir(post)
         dest.mkdir(parents=True, exist_ok=True)
         print(f"[{stage}] {post['slug']}", flush=True)
+        if stage == "transcripts":
+            write_transcript_sample(post, dest)
+            continue
+        builder = command_builders[stage]
         run_command(builder(post, dest))
         source_info = dest / "source.info.json"
         if stage == "metadata" and source_info.exists():
@@ -96,7 +142,9 @@ def collect(stage: str, slug: str | None = None) -> None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("stage", choices=("metadata", "subtitles", "video"))
+    parser.add_argument(
+        "stage", choices=("metadata", "subtitles", "transcripts", "video")
+    )
     parser.add_argument("--slug")
     return parser.parse_args()
 

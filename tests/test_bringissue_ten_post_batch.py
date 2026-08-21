@@ -44,10 +44,35 @@ class BringIssueCollectorCommandTests(unittest.TestCase):
             video = video_command(post, dest)
             self.assertIn("--write-info-json", metadata)
             self.assertIn("--write-auto-subs", subtitles)
+            language_index = subtitles.index("--sub-langs") + 1
+            self.assertEqual(subtitles[language_index], "ko")
             self.assertIn(
                 "best[height<=480][ext=mp4]/best[height<=480]/worst", video
             )
             self.assertNotIn("--merge-output-format", video)
+
+    def test_vtt_sampling_removes_tags_duplicates_and_keeps_thirty_second_marks(self):
+        from scripts.prepare_bringissue_ten_post_batch import vtt_to_samples
+
+        source = """WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+<c>첫 장면입니다</c>
+
+00:00:01.000 --> 00:00:03.000
+<c>첫 장면입니다</c>
+
+00:00:14.000 --> 00:00:16.000
+중간 대사
+
+00:00:31.000 --> 00:00:34.000
+<c.colorCCCCCC>다음 장면입니다</c>
+"""
+
+        self.assertEqual(
+            vtt_to_samples(source),
+            ["[00:00] 첫 장면입니다", "[00:31] 다음 장면입니다"],
+        )
 
 
 if __name__ == "__main__":
