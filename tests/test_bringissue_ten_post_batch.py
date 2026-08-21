@@ -126,5 +126,29 @@ class BringIssueThumbnailTests(unittest.TestCase):
             self.assertTrue(all(len(line) <= 18 for line in lines), post["slug"])
 
 
+class BringIssueDraftTests(unittest.TestCase):
+    def test_each_post_matches_editorial_draft_contract(self):
+        from scripts.prepare_bringissue_ten_post_batch import asset_dir, load_registry
+
+        for post in load_registry()["posts"]:
+            draft_path = asset_dir(post) / "post-draft.md"
+            self.assertTrue(draft_path.exists(), post["slug"])
+            draft = draft_path.read_text(encoding="utf-8")
+            title = draft.splitlines()[0].removeprefix("# ")
+            self.assertGreaterEqual(len(title), 40, post["slug"])
+            self.assertLessEqual(len(title), 55, post["slug"])
+            self.assertEqual(sum(line.startswith("## ") for line in draft.splitlines()), 3)
+            self.assertEqual(draft.count("![장면 "), 10)
+            self.assertEqual(draft.count("<u>"), 4)
+            self.assertIn(post["url"], draft)
+            self.assertIn("원본 영상을 대체하지 않는", draft)
+            tags = draft.splitlines()[-1].split()
+            self.assertGreaterEqual(len(tags), 8, post["slug"])
+            self.assertLessEqual(len(tags), 12, post["slug"])
+            compact_length = len("".join(draft.split()))
+            self.assertGreaterEqual(compact_length, 1500, post["slug"])
+            self.assertLessEqual(compact_length, 2200, post["slug"])
+
+
 if __name__ == "__main__":
     unittest.main()
