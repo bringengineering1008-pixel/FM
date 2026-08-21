@@ -1,0 +1,27 @@
+{
+  "name": "브링이슈",
+  "blog_title": "브링이슈 | 지금 뜬 영상 속 결정적 한 장면",
+  "tagline": "지금 뜬 영상 속 결정적 한 장면",
+  "description": "사람들이 멈춰 본 장면, 그 뒤의 선택과 이유를 읽습니다.",
+  "palette": {
+    "navy": "#14233B",
+    "yellow": "#FFCC36",
+    "ivory": "#F4F1E8",
+    "white": "#FFFFFF",
+    "text": "#172033"
+  },
+  "categories": [
+    {"before": "오늘 뜬 유튜브", "after": "오늘 뜬 유튜브"},
+    {"before": "국내 경제 뉴스", "after": "스타·인물 비하인드"},
+    {"before": "국외 경제 뉴스", "after": "선택의 반전"},
+    {"before": "경제 용어 및 기본적인 상식", "after": "돈 되는 아이템"},
+    {"before": "공지사항", "after": "브링이슈 안내"}
+  ],
+  "published_posts": [
+    {"slug": "yoo-gunsan", "log_no": "224386096315", "label": "오늘 뜬 영상", "text": ["짬뽕 먹으러 갔는데", "전원 간짜장으로 바꾼 이유"], "source": "blog-assets/2026-08-21-ddeunddeun-roadtrip/scene-09.jpg"},
+    {"slug": "fairy-leftovers", "log_no": "224386096430", "label": "선택의 반전", "text": ["남은 음식 싸간 친구", "다음 날 인정한 이유"], "source": "blog-assets/2026-08-21-fairyjaehyung-30year/scene-03.jpg"},
+    {"slug": "hajiwon-stage", "log_no": "224386096521", "label": "스타 비하인드", "text": ["안무 틀렸는데", "아무도 몰랐다"], "source": "blog-assets/2026-08-21-hajiwon-yuinradio/scene-07.jpg"},
+    {"slug": "heo-water", "log_no": "224386096592", "label": "스타 비하인드", "text": ["신인 시절", "정수기 물도 눈치 봤다"], "source": "blog-assets/2026-08-21-heokyunghwan-salondrip/scene-06.jpg"},
+    {"slug": "leejihyun-staff", "log_no": "224386096661", "label": "인물의 선택", "text": ["“저 여기 직원이에요”", "미용실에서 드러난 현실"], "source": "blog-assets/2026-08-21-seoinyoung-leejihyun/scene-03.jpg"}
+  ]
+}
