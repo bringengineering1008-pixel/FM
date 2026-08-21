@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-08-21T23:20:30+09:00",
+  "blog_url": "https://blog.naver.com/bringissue",
+  "blog_title": "브링이슈 | 세상의 돈과 선택 이야기",
+  "nickname": "브링이슈",
+  "description": "국내외 기업과 사람들의 돈, 계약, 선택에서 벌어진 실제 이야기를 쉽고 재미있게 정리합니다.",
+  "background_state": "기존 의류 사진 반복 배경이 공개 홈에 표시됨",
+  "categories": [
+    {"name": "공지사항", "category_no": 11, "post_count": 0},
+    {"name": "국내 경제 뉴스", "category_no": 23, "post_count": 0},
+    {"name": "국외 경제 뉴스", "category_no": 24, "post_count": 0},
+    {"name": "경제 용어 및 기본적인 상식", "category_no": 25, "post_count": 0},
+    {"name": "오늘 뜬 유튜브", "category_no": 26, "post_count": 7}
+  ],
+  "published_log_nos": [
+    "224386096315",
+    "224386096430",
+    "224386096521",
+    "224386096592",
+    "224386096661"
+  ]
+}
