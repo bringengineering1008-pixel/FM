@@ -75,13 +75,33 @@ class BringIssueHighResolutionCollectorTests(unittest.TestCase):
 
             subtitles = subtitle_command(post)
             self.assertIn("--write-auto-subs", subtitles)
-            self.assertIn("ko.*,ko,en.*", subtitles)
+            self.assertIn("ko-orig,ko,en-orig,en", subtitles)
+            self.assertNotIn("ko.*,ko,en.*", subtitles)
 
             video = video_command(post)
             self.assertIn("--js-runtimes", video)
             format_value = video[video.index("-f") + 1]
             self.assertIn("bestvideo[height<=2160]", format_value)
             self.assertNotIn("--merge-output-format", video)
+
+    def test_batch_collection_records_a_failed_video_and_continues(self):
+        from scripts.prepare_bringissue_twenty_post_batch import (
+            collect_posts,
+            load_registry,
+        )
+
+        posts = load_registry()["posts"][:2]
+        calls = []
+
+        def fake_runner(command, **kwargs):
+            calls.append(command[-1])
+            if len(calls) == 1:
+                raise RuntimeError("HTTP Error 429")
+
+        failures = collect_posts("subtitles", posts, runner=fake_runner)
+
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(failures, [{"slug": posts[0]["slug"], "error": "HTTP Error 429"}])
 
 
 if __name__ == "__main__":

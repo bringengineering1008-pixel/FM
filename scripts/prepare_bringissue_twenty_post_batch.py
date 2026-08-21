@@ -46,7 +46,7 @@ def subtitle_command(post: dict) -> list[str]:
         "--write-auto-subs",
         "--write-subs",
         "--sub-langs",
-        "ko.*,ko,en.*",
+        "ko-orig,ko,en-orig,en",
         "--sub-format",
         "vtt",
         "-o",
@@ -86,20 +86,41 @@ def selected_posts(slug: str | None = None) -> list[dict]:
     return selected
 
 
-def collect(stage: str, slug: str | None = None) -> None:
+def collect_posts(
+    stage: str,
+    posts: list[dict],
+    runner=subprocess.run,
+) -> list[dict[str, str]]:
     builders = {
         "metadata": metadata_command,
         "subtitles": subtitle_command,
         "video": video_command,
     }
-    for post in selected_posts(slug):
+    failures = []
+    for post in posts:
         dest = asset_dir(post)
         dest.mkdir(parents=True, exist_ok=True)
         print(f"[{stage}] {post['slug']}", flush=True)
-        subprocess.run(builders[stage](post), cwd=ROOT, check=True)
+        try:
+            runner(builders[stage](post), cwd=ROOT, check=True)
+        except Exception as exc:
+            failures.append({"slug": post["slug"], "error": str(exc)})
+            print(f"[{stage}:failed] {post['slug']}: {exc}", flush=True)
+            continue
         source_info = dest / "source.info.json"
         if stage == "metadata" and source_info.exists():
             source_info.replace(dest / "info.json")
+    return failures
+
+
+def collect(stage: str, slug: str | None = None) -> list[dict[str, str]]:
+    failures = collect_posts(stage, selected_posts(slug))
+    report = ROOT / "blog" / "batches" / f"2026-08-22-{stage}-failures.json"
+    report.write_text(
+        json.dumps(failures, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    return failures
 
 
 def parse_args() -> argparse.Namespace:
@@ -111,7 +132,9 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
-    collect(args.stage, args.slug)
+    failures = collect(args.stage, args.slug)
+    if failures:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
