@@ -1,0 +1,173 @@
+{
+  "topic": "500원 지폐로 조선소를 세웠다는 이야기의 사실 검증",
+  "claims": [
+    {
+      "id": "banknote_design",
+      "spoken_wording": "정주영이 꺼낸 것은 당시 유통되던 500원권이었고, 뒷면에는 거북선과 판옥선이 그려져 있었습니다.",
+      "primary_source_url": "https://www.bok.or.kr/eng/main/contents.do?menuNo=400179",
+      "crosscheck_source_url": "https://file-cdn.bok.or.kr/portal/46ec711571a90732c6148aeb8b319562/1/FILE_201803300830040051.pdf",
+      "source_date": "1966-08-16",
+      "source_pages": ["한국은행 화폐연표 500원권 항목"],
+      "scene_ids": [9, 10],
+      "status": "PRIMARY_RECORD"
+    },
+    {
+      "id": "ulsan_beach_evidence",
+      "spoken_wording": "그가 함께 내민 것은 울산 미포만 백사장 사진과 조선소 계획도였습니다.",
+      "primary_source_url": "https://www.hhi.co.kr/resources/front/assets/file/%ED%98%84%EB%8C%80%EC%A4%91%EA%B3%B5%EC%97%85%EA%B7%B8%EB%A3%B9_50%EB%85%84%EC%82%AC_1%EA%B6%8C%28%ED%86%B5%EC%82%AC%29.pdf",
+      "crosscheck_source_url": "https://www.hhi.co.kr/filedown/hdhyundai_50_3.pdf",
+      "source_date": "1971",
+      "source_pages": ["통사 창업 서술", "화보 창업 일화"],
+      "scene_ids": [6],
+      "status": "OFFICIAL_RETROSPECTIVE"
+    },
+    {
+      "id": "appledore_cooperation",
+      "spoken_wording": "공식 50년사에는 1971년 9월 영국 애플도어와 조선소 건설을 위한 기술·판매 협력을 논의한 기록이 남아 있습니다.",
+      "primary_source_url": "https://www.hhi.co.kr/filedown/hdhyundai_50_3.pdf",
+      "crosscheck_source_url": "https://www.hhi.co.kr/resources/front/assets/file/%ED%98%84%EB%8C%80%EC%A4%91%EA%B3%B5%EC%97%85%EA%B7%B8%EB%A3%B9_50%EB%85%84%EC%82%AC_1%EA%B6%8C%28%ED%86%B5%EC%82%AC%29.pdf",
+      "source_date": "1971-09",
+      "source_pages": ["화보 연표 1971.09", "통사 조선 창업 장"],
+      "scene_ids": [7],
+      "status": "OFFICIAL_RETROSPECTIVE"
+    },
+    {
+      "id": "barclays_loan",
+      "spoken_wording": "현대중공업 50년사는 1971년 9월 영국 버클레이즈은행과 조선소 건설 차관 도입에 서명했다고 기록합니다.",
+      "primary_source_url": "https://www.hhi.co.kr/filedown/hdhyundai_50_3.pdf",
+      "crosscheck_source_url": "https://www.hhi.co.kr/resources/front/assets/file/%ED%98%84%EB%8C%80%EC%A4%91%EA%B3%B5%EC%97%85%EA%B7%B8%EB%A3%B9_50%EB%85%84%EC%82%AC_1%EA%B6%8C%28%ED%86%B5%EC%82%AC%29.pdf",
+      "source_date": "1971-09",
+      "source_pages": ["화보 연표 1971.09", "통사 해외차관 서술"],
+      "scene_ids": [15],
+      "status": "OFFICIAL_RETROSPECTIVE"
+    },
+    {
+      "id": "livanos_order",
+      "spoken_wording": "같은 공식 기록에는 1971년 12월 리바노스 회장과 1호선 계약을 체결한 자료가 남아 있습니다.",
+      "primary_source_url": "https://www.hhi.co.kr/filedown/hdhyundai_50_3.pdf",
+      "crosscheck_source_url": "https://www.hhi.co.kr/resources/front/assets/file/%ED%98%84%EB%8C%80%EC%A4%91%EA%B3%B5%EC%97%85%EA%B7%B8%EB%A3%B9_50%EB%85%84%EC%82%AC_1%EA%B6%8C%28%ED%86%B5%EC%82%AC%29.pdf",
+      "source_date": "1971-12",
+      "source_pages": ["화보 연표 1971.12", "통사 첫 수주 서술"],
+      "scene_ids": [18],
+      "status": "OFFICIAL_RETROSPECTIVE"
+    },
+    {
+      "id": "simultaneous_build",
+      "spoken_wording": "현대는 조선소를 먼저 완성한 뒤 배를 만든 것이 아니라, 조선소 건설과 첫 선박 건조를 함께 밀어붙였습니다.",
+      "primary_source_url": "https://www.hhi.co.kr/resources/front/assets/file/%ED%98%84%EB%8C%80%EC%A4%91%EA%B3%B5%EC%97%85%EA%B7%B8%EB%A3%B9_50%EB%85%84%EC%82%AC_1%EA%B6%8C%28%ED%86%B5%EC%82%AC%29.pdf",
+      "crosscheck_source_url": "https://www.hhi.co.kr/filedown/hdhyundai_50_3.pdf",
+      "source_date": "1972-1974",
+      "source_pages": ["통사 조선소·1호선 동시 건설", "화보 연표 1972-1974"],
+      "scene_ids": [19],
+      "status": "OFFICIAL_RETROSPECTIVE"
+    },
+    {
+      "id": "banknote_myth",
+      "spoken_wording": "500원 지폐는 설득의 상징이었지만, 지폐와 백사장 사진 뒤에는 기술제휴, 정부 지원, 버클레이즈 차관, 리바노스의 선박 수주가 함께 있었습니다.",
+      "primary_source_url": "https://naval-special.hhi.co.kr/ko/media01_view/19",
+      "crosscheck_source_url": "https://www.hhi.co.kr/resources/front/assets/file/%ED%98%84%EB%8C%80%EC%A4%91%EA%B3%B5%EC%97%85%EA%B7%B8%EB%A3%B9_50%EB%85%84%EC%82%AC_1%EA%B6%8C%28%ED%86%B5%EC%82%AC%29.pdf",
+      "source_date": "2022-03-24",
+      "source_pages": ["HD현대 공식 보도자료", "통사 해외차관 서술"],
+      "scene_ids": [20, 21, 22],
+      "status": "MYTH_QUALIFIED"
+    }
+  ],
+  "visuals": [
+    {
+      "id": "hdhyundai_intro_myth",
+      "provider": "HD현대중공업",
+      "source_url": "https://www.hhi.co.kr/resources/front/assets/file/%ED%98%84%EB%8C%80%EC%A4%91%EA%B3%B5%EC%97%85%EA%B7%B8%EB%A3%B9_50%EB%85%84%EC%82%AC_1%EA%B6%8C%28%ED%86%B5%EC%82%AC%29.pdf",
+      "source_path": "output/hyundai_500won_shipyard_evidence_v1/source/hdhyundai_p16_intro_myth.png",
+      "rights_status": "LIMITED_QUOTATION",
+      "attribution": "HD현대중공업그룹 50년사 제1권 통사, 인쇄면 028-029"
+    },
+    {
+      "id": "hdhyundai_banknote_appledore",
+      "provider": "HD현대중공업",
+      "source_url": "https://www.hhi.co.kr/resources/front/assets/file/%ED%98%84%EB%8C%80%EC%A4%91%EA%B3%B5%EC%97%85%EA%B7%B8%EB%A3%B9_50%EB%85%84%EC%82%AC_1%EA%B6%8C%28%ED%86%B5%EC%82%AC%29.pdf",
+      "source_path": "output/hyundai_500won_shipyard_evidence_v1/source/hdhyundai_p21_banknote_appledore.png",
+      "rights_status": "LIMITED_QUOTATION",
+      "attribution": "HD현대중공업그룹 50년사 제1권 통사, 인쇄면 038-039"
+    },
+    {
+      "id": "hdhyundai_loan_livanos",
+      "provider": "HD현대중공업",
+      "source_url": "https://www.hhi.co.kr/resources/front/assets/file/%ED%98%84%EB%8C%80%EC%A4%91%EA%B3%B5%EC%97%85%EA%B7%B8%EB%A3%B9_50%EB%85%84%EC%82%AC_1%EA%B6%8C%28%ED%86%B5%EC%82%AC%29.pdf",
+      "source_path": "output/hyundai_500won_shipyard_evidence_v1/source/hdhyundai_p22_loan_livanos.png",
+      "rights_status": "LIMITED_QUOTATION",
+      "attribution": "HD현대중공업그룹 50년사 제1권 통사, 인쇄면 040-041"
+    },
+    {
+      "id": "hdhyundai_parallel_build",
+      "provider": "HD현대중공업",
+      "source_url": "https://www.hhi.co.kr/resources/front/assets/file/%ED%98%84%EB%8C%80%EC%A4%91%EA%B3%B5%EC%97%85%EA%B7%B8%EB%A3%B9_50%EB%85%84%EC%82%AC_1%EA%B6%8C%28%ED%86%B5%EC%82%AC%29.pdf",
+      "source_path": "output/hyundai_500won_shipyard_evidence_v1/source/hdhyundai_p31_shipyard_ship_parallel.png",
+      "rights_status": "LIMITED_QUOTATION",
+      "attribution": "HD현대중공업그룹 50년사 제1권 통사, 인쇄면 058-059"
+    },
+    {
+      "id": "hdhyundai_chronology",
+      "provider": "HD현대중공업",
+      "source_url": "https://www.hhi.co.kr/resources/front/assets/file/%ED%98%84%EB%8C%80%EC%A4%91%EA%B3%B5%EC%97%85%EA%B7%B8%EB%A3%B9_50%EB%85%84%EC%82%AC_1%EA%B6%8C%28%ED%86%B5%EC%82%AC%29.pdf",
+      "source_path": "output/hyundai_500won_shipyard_evidence_v1/source/hdhyundai_p323_chronology.png",
+      "rights_status": "LIMITED_QUOTATION",
+      "attribution": "HD현대중공업그룹 50년사 제1권 통사, 인쇄면 642-643"
+    },
+    {
+      "id": "bok_500won_record",
+      "provider": "한국은행",
+      "source_url": "https://www.bok.or.kr/eng/main/contents.do?menuNo=400179",
+      "source_path": "output/hyundai_500won_shipyard_evidence_v1/source/bok_500won_record.png",
+      "rights_status": "LIMITED_QUOTATION",
+      "attribution": "한국은행 Currency Validity, 500 won Na(2nd)"
+    },
+    {
+      "id": "shocked_face",
+      "provider": "OpenMoji",
+      "source_url": "https://openmoji.org/library/emoji-1F631/",
+      "source_path": "output/hyundai_500won_shipyard_evidence_v1/assets/shocked_face.svg",
+      "rights_status": "CC-BY-SA-4.0",
+      "attribution": "OpenMoji – CC BY-SA 4.0"
+    },
+    {
+      "id": "thinking_face",
+      "provider": "OpenMoji",
+      "source_url": "https://openmoji.org/library/emoji-1F914/",
+      "source_path": "output/hyundai_500won_shipyard_evidence_v1/assets/thinking_face.svg",
+      "rights_status": "CC-BY-SA-4.0",
+      "attribution": "OpenMoji – CC BY-SA 4.0"
+    },
+    {
+      "id": "banknote_icon",
+      "provider": "Twemoji",
+      "source_url": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f4b5.svg",
+      "source_path": "output/hyundai_500won_shipyard_evidence_v1/assets/banknote.svg",
+      "rights_status": "CC-BY-4.0",
+      "attribution": "Twemoji graphics – CC BY 4.0"
+    },
+    {
+      "id": "ship_icon",
+      "provider": "Twemoji",
+      "source_url": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f6a2.svg",
+      "source_path": "output/hyundai_500won_shipyard_evidence_v1/assets/ship.svg",
+      "rights_status": "CC-BY-4.0",
+      "attribution": "Twemoji graphics – CC BY 4.0"
+    },
+    {
+      "id": "construction_stickman",
+      "provider": "BringIssue",
+      "source_url": "https://www.youtube.com/@BringIssue",
+      "source_path": "output/hyundai_500won_shipyard_evidence_v1/source/original_construction_stickman.png",
+      "rights_status": "ORIGINAL",
+      "attribution": "BringIssue 자체 제작"
+    },
+    {
+      "id": "choice_stickman",
+      "provider": "BringIssue",
+      "source_url": "https://www.youtube.com/@BringIssue",
+      "source_path": "output/hyundai_500won_shipyard_evidence_v1/source/original_choice_stickman.png",
+      "rights_status": "ORIGINAL",
+      "attribution": "BringIssue 자체 제작"
+    }
+  ]
+}

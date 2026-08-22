@@ -1,0 +1,9 @@
+{
+  "asset_id": "banknote",
+  "provider": "Twemoji",
+  "canonical_page_url": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f4b5.svg",
+  "download_url": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f4b5.svg",
+  "license_id": "CC-BY-4.0",
+  "attribution": "Twemoji graphics – CC BY 4.0",
+  "sha256": "e31415211849fc00ca2fa3560701a456d8905d251606d37141925ce19ba57930"
+}

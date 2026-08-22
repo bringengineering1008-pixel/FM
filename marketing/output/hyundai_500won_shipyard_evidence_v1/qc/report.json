@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "errors": [],
+  "shots": 30,
+  "documentary_ratio": 0.6,
+  "duration": 127.55,
+  "visual_starts_monotonic": true,
+  "video": "output\\hyundai_500won_shipyard_evidence_v1\\video\\hyundai_500won_shipyard_final.mp4",
+  "video_sha256": "bb506c5fa0f7d8e8259b97c86d58996c29b29d836c8a6d5dd0f06a7db0dc8c37",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "voice_id": "tc_69fc0cff784968297fb45daa",
+  "target_lufs": -11,
+  "measured_lufs": -11.76,
+  "measured_true_peak_dbfs": -1.0
+}
