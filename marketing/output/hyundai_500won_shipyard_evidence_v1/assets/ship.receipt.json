@@ -1,0 +1,9 @@
+{
+  "asset_id": "ship",
+  "provider": "Twemoji",
+  "canonical_page_url": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f6a2.svg",
+  "download_url": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f6a2.svg",
+  "license_id": "CC-BY-4.0",
+  "attribution": "Twemoji graphics – CC BY 4.0",
+  "sha256": "e573879b6b29dd6673e156b3039c12f2634b9df1656c74299e54bf4ee9e0577e"
+}
