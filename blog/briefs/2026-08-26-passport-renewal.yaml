@@ -1,0 +1,86 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role:
+  primary: 유입
+  secondary: 검토
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "여권 만료·분실·정보 변경 뒤 재발급 준비물과 온라인 신청 가능 여부를 확인하는 반복 검색"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "40대 이상 독자가 해외여행 전 여권 재발급 과정의 재방문과 사진 반려를 줄이는 생활 정보"
+  field_evidence:
+    - "외교부 여권안내 재발급 화면과 18세 이상 구비서류·수수료 표"
+topic: "여권 재발급 준비물과 온라인 신청 전 확인사항"
+primary_keyword: "여권 재발급 준비물"
+secondary_keywords:
+  - "여권 온라인 재발급"
+  - "여권 재발급 수수료"
+  - "여권 재발급 사진"
+  - "여권 재발급 신청"
+source_date: "2026-08-26"
+target_reader: "해외여행을 앞두고 여권을 다시 발급받아야 하지만 방문·온라인 신청 조건과 준비물을 모르는 40대 이상 독자"
+reader_scene: "출국 일정을 잡은 뒤 여권 만료일을 확인하고 정부24 또는 여권사무 대행기관 신청을 준비하는 상황"
+one_objection: "기존 여권이 있으면 모든 재발급 사유를 온라인으로 처리할 수 있다고 생각한다"
+promised_answer: "재발급 사유별 온라인 가능 여부, 성인 기본서류, 수수료와 신청 전 확인 순서를 알려준다"
+one_cta: 저장
+verified_facts:
+  - fact: "국내 온라인 재발급은 정부24와 KB스타뱅킹, 국외는 재외동포365민원포털에서 신청할 수 있다고 외교부가 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.passport.go.kr/home/kor/contents.do?menuPos=6"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "수록정보 정정·변경, 여권 분실·훼손, 행정기관 착오 사유는 방문 신청만 가능하다고 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.passport.go.kr/home/kor/contents.do?menuPos=6"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "18세 이상 기본 구비서류는 신청서, 6개월 이내 여권용 사진 1매, 신분증, 유효기간이 남은 기존 여권이다."
+    source_type: 공식출처
+    source_url: "https://www.passport.go.kr/home/kor/contents.do?menuPos=6"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "성인 복수여권 국내 수수료는 58면 52,000원, 26면 49,000원이며 단수여권은 17,000원이라고 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.passport.go.kr/home/kor/contents.do?menuPos=6"
+    verified_on: "2026-08-26"
+    publishable: true
+photos:
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-passport-renewal/01-passport-renewal-official.png"
+    kind: 실제
+    role: "재발급 사유와 온라인 신청 경로를 보여주는 외교부 공식 화면"
+    visible_fact: "재발급 의미·사유와 정부24·KB스타뱅킹·재외동포365 신청 경로"
+    caption: "외교부 여권안내의 재발급 공식 화면입니다."
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-passport-renewal/02-passport-adult-documents-fee.png"
+    kind: 실제
+    role: "18세 이상 기본 구비서류와 여권 면수별 수수료를 보여주는 공식 화면"
+    visible_fact: "신청서·사진·신분증·기존 여권과 58면·26면·단수여권 수수료"
+    caption: "외교부 여권안내의 성인 기본서류와 수수료 표입니다."
+    mask: []
+work_scope:
+  bringcare_direct: []
+  partner_vendor: []
+  owner_decision: []
+  unverified: []
+related_posts:
+  - "해외여행 준비물 글과 내부 연결 예정"
+public_location_scope: "대한민국"
+cost_time_publishable: true
+constraints:
+  - "발급 소요기간을 지역과 시기에 관계없이 단정하지 않는다."
+  - "미성년자·병역의무자·긴급여권의 별도 조건을 성인 일반 재발급과 섞지 않는다."
+  - "사진 규격은 발행 직전 외교부 공식 기준을 다시 확인한다."
+  - "상담 배너와 제휴 링크를 넣지 않는다."
+output_folder: "blog/assets/2026-08-26-passport-renewal"
+image_fallback:
+  real_photo_attempted: true
+  failure_reason: "신청 정보는 생성 이미지보다 외교부 실제 신청 화면과 수수료 표가 근거로 적합하다."
+  ai_allowed: false
+  disclosure_required: false
+learning_context:
+  similar_post_ids: []
+  historical_performance_score: 5
+  cooldown_checked_on: "2026-08-26"
