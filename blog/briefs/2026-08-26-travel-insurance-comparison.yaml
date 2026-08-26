@@ -1,0 +1,87 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role:
+  primary: 검토
+  secondary: 유입
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "해외여행 예약 뒤 여행자보험의 의료비·휴대품·배상책임 보장을 비교하는 반복 검색"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "40대 이상 독자가 가격만 보고 여행자보험을 선택하지 않도록 약관의 핵심 보장과 제외사항을 설명하는 여행 정보"
+  field_evidence:
+    - "찾기쉬운 생활법령정보의 해외여행자보험 보상·유의사항 화면"
+    - "손해보험협회 학습센터의 여행자보험 보장 개요 화면"
+topic: "여행자보험 비교 전 확인할 보장 항목과 제외사항"
+primary_keyword: "여행자보험 비교"
+secondary_keywords:
+  - "해외여행자보험"
+  - "여행자보험 휴대품손해"
+  - "여행자보험 의료비"
+  - "여행자보험 가입"
+source_date: "2026-08-26"
+target_reader: "해외여행을 앞두고 여러 여행자보험 중 무엇을 기준으로 골라야 할지 고민하는 40대 이상 독자"
+reader_scene: "항공권과 숙소 결제 뒤 보험료가 비슷한 여러 상품의 보장표를 비교하는 상황"
+one_objection: "보험료가 싸고 휴대품 보장금액이 크면 충분하다고 생각한다"
+promised_answer: "상해·질병 의료비, 휴대품 손해, 배상책임을 비교하는 순서와 주요 제외사항, 가입 시 알려야 할 내용을 알려준다"
+one_cta: 저장
+verified_facts:
+  - fact: "해외여행자보험은 상해, 질병치료, 휴대품 손해, 배상책임 등 여행 중 위험에 대비하는 보험이라고 공식 생활법령정보가 설명한다."
+    source_type: 공식출처
+    source_url: "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?ccfNo=2&cciNo=2&cnpClsNo=2&csmSeq=894"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "통화·유가증권·신용카드·항공권 등은 보상 휴대품에서 제외되고, 방치나 분실에 의한 손해는 보상하지 않는다고 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?ccfNo=2&cciNo=2&cnpClsNo=2&csmSeq=894"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "가입자는 여행지·여행목적, 과거 질병 등 건강상태, 다른 보험 가입 여부를 청약서에 사실대로 기재해야 한다고 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?ccfNo=2&cciNo=2&cnpClsNo=2&csmSeq=894"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "손해보험협회도 여행자보험이 상해·질병 신체사고, 휴대물품 손해, 타인에 대한 배상책임을 보상하는 상품이라고 설명한다."
+    source_type: 공식출처
+    source_url: "https://edu.knia.or.kr/edu/product3_5.do"
+    verified_on: "2026-08-26"
+    publishable: true
+photos:
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-travel-insurance/01-travel-insurance-coverage.png"
+    kind: 실제
+    role: "해외여행자보험의 주요 보상과 가입 시 고지사항을 함께 보여주는 정부 공식 화면"
+    visible_fact: "상해·질병·휴대품 손해와 휴대품 제외사항, 여행지·목적·건강상태 고지"
+    caption: "찾기쉬운 생활법령정보의 여행자보험 보상·유의사항 화면입니다."
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-travel-insurance/02-knia-travel-insurance.png"
+    kind: 실제
+    role: "여행자보험의 기본 보장 범위를 보여주는 손해보험협회 공식 학습 화면"
+    visible_fact: "여행·출장·나들이 중 상해·질병, 휴대물품 손해, 배상책임 보장 개요"
+    caption: "손해보험협회 학습센터의 여행자보험 안내 화면입니다."
+    mask: []
+work_scope:
+  bringcare_direct: []
+  partner_vendor: []
+  owner_decision: []
+  unverified: []
+related_posts:
+  - "여권 재발급 준비물 글과 내부 연결 예정"
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "특정 보험사나 상품을 추천하지 않는다."
+  - "상품마다 다른 한도·자기부담금·면책을 일반 기준처럼 단정하지 않는다."
+  - "보험금 지급 가능 여부는 개별 약관과 사고 사실에 따라 달라짐을 명시한다."
+  - "제휴 링크와 상담 배너를 넣지 않는다."
+output_folder: "blog/assets/2026-08-26-travel-insurance"
+image_fallback:
+  real_photo_attempted: true
+  failure_reason: "보험 비교 정보는 생성 이미지보다 정부·협회 실제 안내 화면이 근거로 적합하다."
+  ai_allowed: false
+  disclosure_required: false
+learning_context:
+  similar_post_ids: []
+  historical_performance_score: 5
+  cooldown_checked_on: "2026-08-26"
