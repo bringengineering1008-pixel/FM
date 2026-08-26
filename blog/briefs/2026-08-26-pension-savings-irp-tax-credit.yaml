@@ -1,0 +1,81 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role:
+  primary: 유입
+  secondary: 검토
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "연말정산 전 연금저축과 IRP의 600만·900만 원 한도를 어떻게 나눌지 확인하는 반복 검색"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "40대 이상 독자가 노후자금과 세액공제 한도를 함께 계획하는 금융 의사결정 정보"
+  field_evidence:
+    - "국세청 공식 근로소득 세액공제 화면의 연금계좌 표"
+topic: "연금저축과 IRP 세액공제 한도 및 납입 순서"
+primary_keyword: "연금저축 IRP 세액공제"
+secondary_keywords:
+  - "연금저축 세액공제 600만원"
+  - "IRP 세액공제 900만원"
+  - "연금계좌 세액공제율"
+  - "연금저축 IRP 차이"
+source_date: "2026-08-26"
+target_reader: "연말정산 세액공제를 위해 연금저축과 IRP 중 어디에 얼마를 넣을지 고민하는 40~60대 독자"
+reader_scene: "금융회사에서 IRP 가입을 권유받았지만 이미 연금저축이 있어 한도와 납입 순서를 확인하는 상황"
+one_objection: "IRP에 900만 원을 넣어야만 세액공제 한도를 모두 사용할 수 있다고 생각한다"
+promised_answer: "연금저축 600만 원, 퇴직연금 포함 합계 900만 원의 관계와 소득별 공제율, 납입 전 확인 순서를 알려준다"
+one_cta: 저장
+verified_facts:
+  - fact: "국세청은 연금저축계좌의 세액공제 대상 납입한도를 600만 원, 퇴직연금 포함 연금계좌 합계 한도를 900만 원으로 안내한다."
+    source_type: 공식출처
+    source_url: "https://nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875&mi=6439"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "종합소득금액 4,500만 원 이하 또는 총급여액 5,500만 원 이하의 공제율은 15%라고 안내한다."
+    source_type: 공식출처
+    source_url: "https://nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875&mi=6439"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "위 기준을 초과하면 공제율은 12%라고 안내한다."
+    source_type: 공식출처
+    source_url: "https://nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875&mi=6439"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "국세청은 IRP를 포함한 퇴직연금계좌와 연금저축계좌의 정의를 구분해 안내한다."
+    source_type: 공식출처
+    source_url: "https://nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875&mi=6439"
+    verified_on: "2026-08-26"
+    publishable: true
+photos:
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-pension-savings-irp-tax-credit/02-nts-pension-tax-credit-table.png"
+    kind: 실제
+    role: "연금저축 600만 원·퇴직연금 포함 900만 원 한도와 공제율을 보여주는 국세청 공식 화면"
+    visible_fact: "총급여 5,500만 원 이하 15%, 초과 12%, 연금저축 600만 원·퇴직연금 포함 900만 원 표"
+    caption: "국세청 공식 연금계좌 세액공제 한도와 공제율 표입니다."
+    mask: []
+work_scope:
+  bringcare_direct: []
+  partner_vendor: []
+  owner_decision: []
+  unverified: []
+related_posts:
+  - "2026 조기노령연금 소득기준 글과 내부 연결 예정"
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "특정 금융상품 가입이나 납입액을 개인에게 권유하지 않는다."
+  - "세액공제액과 환급액을 같은 것으로 표현하지 않는다."
+  - "세금을 충분히 납부하지 않은 경우 공제 한도를 모두 체감하지 못할 수 있음을 안내한다."
+  - "상담 배너와 제휴 링크를 넣지 않는다."
+output_folder: "blog/assets/2026-08-26-pension-savings-irp-tax-credit"
+image_fallback:
+  real_photo_attempted: true
+  failure_reason: "세액공제 정보는 생성 이미지보다 국세청 실제 표가 근거로 적합하다."
+  ai_allowed: false
+  disclosure_required: false
+learning_context:
+  similar_post_ids: []
+  historical_performance_score: 5
+  cooldown_checked_on: "2026-08-26"
+
