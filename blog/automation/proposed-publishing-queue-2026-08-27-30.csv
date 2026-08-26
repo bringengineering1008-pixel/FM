@@ -1,5 +1,5 @@
 sequence,scheduled_at_kst,slug,title,category,source_recheck,image_count,telegram_after_public,status
-1,2026-08-27 07:40,voice-phishing-account-freeze,"보이스피싱 송금했다면, 계좌 지급정지부터 해야 합니다",디지털 복구·보안,required,1,yes,awaiting_final_approval
+1,2026-08-27 07:40,voice-phishing-account-freeze,"보이스피싱 송금했다면, 계좌 지급정지부터 해야 합니다",디지털 복구·보안,required,6,yes,awaiting_final_approval
 2,2026-08-27 12:20,health-screening-fasting,"건강검진 전 금식, 물과 커피도 마시면 안 될까?",건강검진 준비,required,1,yes,awaiting_final_approval
 3,2026-08-27 20:10,dormant-deposit-check,"휴면예금 조회, 문자 링크 말고 여기서 확인하세요",퇴직·연금·생활비,required,1,yes,awaiting_final_approval
 4,2026-08-28 07:40,naverpay-refund-period,"네이버페이 환불 기간, 취소 완료인데 돈이 안 보인다면",디지털 복구·보안,required,1,yes,awaiting_final_approval

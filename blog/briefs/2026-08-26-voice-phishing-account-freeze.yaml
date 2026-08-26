@@ -57,6 +57,11 @@ verified_facts:
     source_url: "https://payinfo.or.kr/cs/faq/qryListWebFaq.do?t=094528"
     verified_on: "2026-08-26"
     publishable: true
+  - fact: "금융감독원 공식 영상은 본인계좌 지급정지를 온라인·금융회사 영업점·고객센터에서 신청할 수 있고, 타인 계좌 지급정지는 금융회사 콜센터 또는 금융감독원 1332를 통해 별도 요청해야 한다고 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.youtube.com/watch?v=VpFMMiR6DL0"
+    verified_on: "2026-08-26"
+    publishable: true
 photos:
   - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-voice-phishing-account-freeze/01-police-voice-phishing-prevention.jpeg"
     kind: 실제
@@ -64,17 +69,35 @@ photos:
     visible_fact: "경찰청이 수사기관 금전 요구, 비공식 대출 경로, 가족 사칭, 낯선 링크, 카드배송 사칭을 경고하며 112 신고를 안내한다."
     caption: "경찰청 공식 보이스피싱 예방 수칙. 의심되거나 피해를 확인했다면 망설이지 말고 112와 금융회사에 연락해야 합니다."
     mask: []
-  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-voice-phishing-account-freeze/02-police-official-page.png"
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-voice-phishing-account-freeze/04-fss-application-channels.jpg"
     kind: 실제
-    role: "경찰청 공식 홈페이지의 게시물 제목과 등록기관을 보여주는 출처 확인 화면"
-    visible_fact: "경찰청 홈페이지에 '보이스피싱, 의심되면 망설이지 말고 112!' 공식 게시물이 등록되어 있다."
-    caption: "경찰청 공식 홈페이지의 보이스피싱 112 신고 안내 게시물입니다."
+    role: "금융감독원 공식 영상에서 본인계좌 지급정지 신청 채널을 보여주는 장면"
+    visible_fact: "온라인, 금융회사 영업점, 금융회사 고객센터를 통해 본인계좌 지급정지를 신청할 수 있다."
+    caption: "금융감독원 공식 영상의 본인계좌 지급정지 신청방법입니다."
     mask: []
-  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-voice-phishing-account-freeze/03-payinfo-emergency-stop.png"
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-voice-phishing-account-freeze/05-fss-stop-process.jpg"
     kind: 실제
-    role: "금융결제원 계좌정보통합관리서비스에서 본인계좌 일괄지급정지 메뉴를 찾는 실제 화면"
-    visible_fact: "계좌정보통합관리서비스 상단과 빠른 메뉴에 본인계좌 일괄지급정지가 제공된다."
-    caption: "금융결제원 계좌정보통합관리서비스의 본인계좌 일괄지급정지 메뉴입니다."
+    role: "금융회사와 금융결제원 사이의 지급정지 신청·처리 흐름을 보여주는 공식 영상 장면"
+    visible_fact: "영업점·고객센터 신청이 금융결제원을 거쳐 금융회사에 전달되고 처리 결과가 회신된다."
+    caption: "금융감독원 공식 영상의 지급정지 처리 흐름입니다."
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-voice-phishing-account-freeze/06-fss-target-accounts.jpg"
+    kind: 실제
+    role: "본인계좌 지급정지 대상과 일부 계좌 선택 가능 여부를 보여주는 공식 영상 장면"
+    visible_fact: "본인 명의 수시입출금식 계좌와 금융투자회사 계좌가 대상이며 일부 계좌를 선택할 수 있다."
+    caption: "금융감독원 공식 영상의 지급정지 대상 계좌 안내입니다."
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-voice-phishing-account-freeze/07-fss-effects-release.jpg"
+    kind: 실제
+    role: "지급정지 효과와 해제 경로를 보여주는 공식 영상 장면"
+    visible_fact: "지급정지 시 출금거래가 멈추고 해제는 영업점 방문으로만 가능하다고 안내한다."
+    caption: "금융감독원 공식 영상의 지급정지 효과와 해제방법입니다."
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-voice-phishing-account-freeze/08-fss-recipient-account-stop.jpg"
+    kind: 실제
+    role: "이미 송금한 타인 계좌의 지급정지 요청 경로를 보여주는 공식 영상 장면"
+    visible_fact: "타인 계좌 지급정지는 금융회사 콜센터 또는 금융감독원 1332를 통해 별도 요청한다."
+    caption: "금융감독원 공식 영상의 타인 계좌 지급정지 안내입니다."
     mask: []
 work_scope:
   bringcare_direct: []
