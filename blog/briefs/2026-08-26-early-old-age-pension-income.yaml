@@ -1,0 +1,87 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role:
+  primary: 유입
+  secondary: 검토
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "2026년 A값 변경 뒤 일하면서 조기노령연금을 받을 수 있는지 확인하는 정책형 검색"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "40대 후반~60대 독자가 조기수령 여부와 평생 감액의 영향을 함께 판단하는 연금 정보"
+  field_evidence:
+    - "국민연금공단 공식 FAQ의 2026년 소득기준·감액률·출생연도 표"
+topic: "2026년 조기노령연금 소득기준과 평생 감액률"
+primary_keyword: "2026 조기노령연금 소득기준"
+secondary_keywords:
+  - "조기노령연금 A값"
+  - "조기노령연금 감액"
+  - "조기노령연금 나이"
+  - "일하면서 조기노령연금"
+source_date: "2026-08-26"
+target_reader: "정상 노령연금보다 일찍 받고 싶지만 근로·사업소득 때문에 신청 가능한지 고민하는 50~60대 독자"
+reader_scene: "퇴직 또는 재취업을 앞두고 월급이 있어도 조기노령연금을 받을 수 있는지 계산하는 상황"
+one_objection: "월급이 319만 원 이하라면 무조건 신청할 수 있다고 생각한다"
+promised_answer: "2026년 A값의 의미, 소득 계산 방식, 가입기간·출생연도 조건과 평생 감액률을 함께 알려준다"
+one_cta: 저장
+verified_facts:
+  - fact: "국민연금공단은 2026년도 A값을 월 3,193,511원이라고 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0100M0.do"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "사업소득금액과 근로소득금액을 합산해 당해연도 근무 월수로 나눈 월평균소득금액이 A값을 초과하는지 판단한다."
+    source_type: 공식출처
+    source_url: "https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0100M0.do"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "조기노령연금은 가입기간 10년 이상 등 요건을 충족할 때 정상 지급개시연령보다 최대 5년 일찍 신청할 수 있다."
+    source_type: 공식출처
+    source_url: "https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0100M0.do"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "일찍 받는 기간에 따라 1개월 0.5%, 1년 6%, 최대 5년 30%가 평생 감액된다."
+    source_type: 공식출처
+    source_url: "https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0100M0.do"
+    verified_on: "2026-08-26"
+    publishable: true
+photos:
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-early-old-age-pension/03-nps-early-pension-expanded.png"
+    kind: 실제
+    role: "2026년 A값과 월평균소득금액 산식 설명을 보여주는 국민연금공단 공식 화면"
+    visible_fact: "2026년도 A값 3,193,511원과 사업·근로소득금액을 근무 월수로 나누는 기준"
+    caption: "국민연금공단 공식 FAQ의 2026년 조기노령연금 소득기준 안내입니다."
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-early-old-age-pension/04-nps-early-pension-reduction.png"
+    kind: 실제
+    role: "평생 감액률과 출생연도별 지급개시연령 표를 보여주는 공식 화면"
+    visible_fact: "1개월 0.5%, 1년 6%, 최대 30% 감액과 출생연도별 노령·조기노령연금 연령"
+    caption: "국민연금공단 공식 FAQ의 감액률과 출생연도별 지급개시연령입니다."
+    mask: []
+work_scope:
+  bringcare_direct: []
+  partner_vendor: []
+  owner_decision: []
+  unverified: []
+related_posts:
+  - "연금저축과 IRP 세액공제 글로 연결 예정"
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "개인의 연금 수령 결정을 대신하거나 유불리를 단정하지 않는다."
+  - "총급여가 아니라 공제 후 근로소득금액을 사용한다는 점을 명확히 한다."
+  - "출생연도·가입기간·소득 요건을 함께 확인하도록 안내한다."
+  - "상담 배너와 제휴 링크를 넣지 않는다."
+output_folder: "blog/assets/2026-08-26-early-old-age-pension"
+image_fallback:
+  real_photo_attempted: true
+  failure_reason: "연금 기준은 생성 이미지보다 국민연금공단 실제 FAQ와 표가 근거로 적합하다."
+  ai_allowed: false
+  disclosure_required: false
+learning_context:
+  similar_post_ids: []
+  historical_performance_score: 5
+  cooldown_checked_on: "2026-08-26"
+
