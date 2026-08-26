@@ -1,0 +1,81 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role:
+  primary: 유입
+  secondary: 검토
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "오래 사용하지 않은 통장·보험금·자기앞수표를 한 번에 확인하려는 반복 검색"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "40대 이상 독자가 잊고 있던 금융재산을 공식 경로에서 조회하고 지급 신청하는 생활금융 정보"
+  field_evidence:
+    - "서민금융진흥원 휴면예금 찾아줌 공식 화면"
+topic: "휴면예금 찾아줌에서 조회하고 지급 신청하는 방법"
+primary_keyword: "휴면예금 조회"
+secondary_keywords:
+  - "휴면예금 찾아줌"
+  - "휴면보험금 조회"
+  - "휴면예금 지급 신청"
+  - "서민금융진흥원 휴면예금"
+source_date: "2026-08-26"
+target_reader: "오래전에 만든 통장이나 보험에 남은 돈이 있는지 공식적으로 확인하려는 40대 이상 독자"
+reader_scene: "휴면예금 안내 문자를 받았거나 오래 쓰지 않은 계좌가 생각나 안전한 조회 사이트를 찾는 상황"
+one_objection: "소액이거나 오래된 계좌라 조회해도 받을 돈이 없을 것이라고 생각한다"
+promised_answer: "공식 조회 경로와 휴면예금의 범위, 온라인·방문 신청 방법, 사칭 문자를 피하는 기준을 알려준다"
+one_cta: 저장
+verified_facts:
+  - fact: "서민금융진흥원은 법률에 따라 소멸시효가 완성된 휴면예금을 금융회사로부터 출연받는다고 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.kinfa.or.kr/financialLife/sleepmoney.do"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "휴면예금 찾아줌에서는 출연된 휴면예금·보험금 조회와 지급 신청이 가능하다."
+    source_type: 공식출처
+    source_url: "https://www.kinfa.or.kr/financialLife/sleepmoney.do"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "공식 안내는 휴면예금, 휴면보험금, 휴면자기앞수표, 실기주과실을 휴면재산 범위로 설명한다."
+    source_type: 공식출처
+    source_url: "https://www.kinfa.or.kr/financialLife/sleepmoney.do"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "방문 신청은 서민금융통합지원센터와 출연 금융회사에서 가능하며, 정부24·어카운트인포·일부 은행 앱 등 온라인 경로도 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.kinfa.or.kr/financialLife/sleepmoney.do"
+    verified_on: "2026-08-26"
+    publishable: true
+photos:
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-dormant-deposit/01-kinfa-dormant-deposit-page.png"
+    kind: 실제
+    role: "서민금융진흥원 공식 휴면예금 안내와 조회·지급 버튼 위치를 보여주는 화면"
+    visible_fact: "휴면예금 찾아줌 소개와 휴면예금 조회·지급 바로가기 버튼"
+    caption: "서민금융진흥원 공식 휴면예금 찾아줌 안내 화면입니다."
+    mask: []
+work_scope:
+  bringcare_direct: []
+  partner_vendor: []
+  owner_decision: []
+  unverified: []
+related_posts:
+  - "통신 미환급액 조회 글로 연결 예정"
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "조회 결과나 지급 가능 금액을 보장하지 않는다."
+  - "문자 링크가 아닌 기관 공식 홈페이지에서 직접 접속하도록 안내한다."
+  - "개인 인증 화면이나 계좌번호를 캡처해 공개하지 않는다."
+  - "상담 배너와 제휴 링크를 넣지 않는다."
+output_folder: "blog/assets/2026-08-26-dormant-deposit"
+image_fallback:
+  real_photo_attempted: true
+  failure_reason: "금융 조회 안내는 생성 이미지보다 공식 사이트 실제 화면이 근거로 적합하다."
+  ai_allowed: false
+  disclosure_required: false
+learning_context:
+  similar_post_ids: []
+  historical_performance_score: 5
+  cooldown_checked_on: "2026-08-26"
+
