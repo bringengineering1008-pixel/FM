@@ -1,0 +1,87 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role:
+  primary: 유입
+  secondary: 검토
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "SRT 예매 취소 직전 주중·주말·명절 위약금과 출발 후 환불 경로를 확인하는 반복 검색"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "40대 이상 독자가 열차 취소 시점을 판단하고 불필요한 위약금을 줄이는 여행 생활 정보"
+  field_evidence:
+    - "SR 공식 승차권 구입·환불·분실 화면과 위약금 표"
+topic: "SRT 승차권 취소 수수료와 출발 후 환불 방법"
+primary_keyword: "SRT 취소 수수료"
+secondary_keywords:
+  - "SRT 환불"
+  - "SRT 위약금"
+  - "SRT 출발 후 환불"
+  - "SRT 주말 취소"
+source_date: "2026-08-26"
+target_reader: "SRT 승차권을 취소해야 하지만 출발시간과 주중·주말에 따른 위약금을 몰라 고민하는 40대 이상 독자"
+reader_scene: "여행 일정이 바뀌어 앱에서 취소 버튼을 누르기 전에 실제로 얼마가 차감되는지 확인하는 상황"
+one_objection: "출발 전이라면 언제 취소해도 무료라고 생각한다"
+promised_answer: "주중·주말·공휴일의 시간대별 위약금과 앱·홈페이지·역창구 환불 가능 시점을 알려준다"
+one_cta: 저장
+verified_facts:
+  - fact: "주중 일반승차권은 출발 3시간 전까지 무료이고, 출발 3시간 전부터 출발시각 전까지 5% 위약금이라고 SR이 안내한다."
+    source_type: 공식출처
+    source_url: "https://etk.srail.kr/cms/archive.do?pageId=TK0402010000"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "주말·공휴일 일반승차권은 시점에 따라 최저위약금 400원, 5%, 10%, 20%가 출발 전에 적용된다고 안내한다."
+    source_type: 공식출처
+    source_url: "https://etk.srail.kr/cms/archive.do?pageId=TK0402010000"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "출발 후 위약금은 20분까지 30%, 20분 경과~60분 40%, 60분 경과~도착시각 70%라고 안내한다."
+    source_type: 공식출처
+    source_url: "https://etk.srail.kr/cms/archive.do?pageId=TK0402010000"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "SRT앱 승차권은 열차 출발 후 10분까지 앱에서 환불할 수 있고, 도착역 도착시각 이후에는 환불할 수 없다고 FAQ가 안내한다."
+    source_type: 공식출처
+    source_url: "https://etk.srail.kr/cms/article/view.do?pageId=TK0504000000&postNo=96"
+    verified_on: "2026-08-26"
+    publishable: true
+photos:
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-srt-refund/01-srt-refund-official.png"
+    kind: 실제
+    role: "SR 공식 승차권 환불 안내와 온라인·역창구 환불 가능 시점을 보여주는 화면"
+    visible_fact: "SRT 승차권 구입·환불·분실 페이지와 출발 후 환불 경로 안내"
+    caption: "SR 공식 승차권 구입·환불·분실 안내 화면입니다."
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-srt-refund/02-srt-cancellation-fee-table.png"
+    kind: 실제
+    role: "주중·주말·명절·단체승차권 시간대별 위약금을 비교하는 공식 표"
+    visible_fact: "주중 무료·5%, 주말 400원·5%·10%·20%, 출발 후 30%·40%·70% 위약금"
+    caption: "SR 공식 일반·명절·단체승차권 위약금 표입니다."
+    mask: []
+work_scope:
+  bringcare_direct: []
+  partner_vendor: []
+  owner_decision: []
+  unverified: []
+related_posts:
+  - "추석 기차표 예매 글과 내부 연결 예정"
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "결제수단별 카드 승인 취소 기간을 근거 없이 단정하지 않는다."
+  - "일반·명절·단체승차권 위약금 표를 구분한다."
+  - "발행 직전 SR 공식 표의 개정일을 다시 확인한다."
+  - "상담 배너와 제휴 링크를 넣지 않는다."
+output_folder: "blog/assets/2026-08-26-srt-refund"
+image_fallback:
+  real_photo_attempted: true
+  failure_reason: "열차 환불 정보는 생성 이미지보다 SR 실제 위약금 표와 안내 화면이 근거로 적합하다."
+  ai_allowed: false
+  disclosure_required: false
+learning_context:
+  similar_post_ids: []
+  historical_performance_score: 5
+  cooldown_checked_on: "2026-08-26"
+
