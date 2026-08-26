@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>보이스피싱 글 사진 배치 미리보기</title>
+  <style>
+    :root { color-scheme: light; --blue:#0a66a8; --ink:#16212b; --muted:#627384; --line:#dbe7ef; --bg:#f3f8fb; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif; }
+    main { width:min(920px, calc(100% - 32px)); margin:36px auto 64px; }
+    header { background:linear-gradient(135deg,#075b97,#2a96cf); color:white; border-radius:22px; padding:34px; box-shadow:0 14px 34px rgba(24,83,120,.16); }
+    h1 { margin:0 0 12px; font-size:30px; line-height:1.35; }
+    header p { margin:0; opacity:.9; line-height:1.7; }
+    .sequence { display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
+    .sequence span { background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.35); border-radius:999px; padding:8px 13px; font-size:14px; }
+    article { margin-top:24px; background:white; border:1px solid var(--line); border-radius:20px; overflow:hidden; box-shadow:0 8px 24px rgba(21,66,95,.08); }
+    .copy { padding:24px 26px 20px; }
+    .number { display:inline-grid; place-items:center; width:34px; height:34px; border-radius:50%; background:#e2f2fb; color:var(--blue); font-weight:700; }
+    h2 { display:inline; margin-left:10px; font-size:22px; }
+    .copy p { margin:13px 0 0; color:var(--muted); line-height:1.75; }
+    .where { margin-top:14px; padding:12px 14px; background:#f4f9fc; border-left:4px solid #43a5d6; color:#36576d; line-height:1.6; }
+    figure { margin:0; padding:0 18px 20px; }
+    img { display:block; width:100%; height:auto; border:1px solid #dce7ed; border-radius:14px; background:#fff; }
+    .poster { width:min(620px,100%); margin:auto; }
+    figcaption { padding:12px 8px 0; color:#667b89; font-size:14px; line-height:1.6; text-align:center; }
+    footer { margin-top:18px; color:#647785; text-align:center; font-size:14px; line-height:1.7; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>보이스피싱 글 사진 배치 미리보기</h1>
+    <p>유튜브 화면 대신 경찰청과 금융결제원의 실제 공식 화면만 사용했습니다.</p>
+    <div class="sequence"><span>① 112 신고 근거</span><span>② 내 계좌 추가 출금 차단</span><span>③ 대표 사기 유형 확인</span></div>
+  </header>
+
+  <article>
+    <div class="copy">
+      <span class="number">1</span><h2>경찰청 공식 게시물</h2>
+      <p>이 글이 개인 의견이 아니라 경찰청 공식 안내를 바탕으로 작성됐다는 점을 먼저 보여줍니다.</p>
+      <div class="where">배치 위치: ‘지금 바로 해야 할 일’의 112·금융회사 신고 순서 바로 아래</div>
+    </div>
+    <figure>
+      <img src="../assets/2026-08-26-voice-phishing-account-freeze/02-police-official-page.png" alt="경찰청 공식 보이스피싱 게시물 화면">
+      <figcaption>경찰청 홈페이지의 ‘보이스피싱, 의심되면 망설이지 말고 112!’ 게시물</figcaption>
+    </figure>
+  </article>
+
+  <article>
+    <div class="copy">
+      <span class="number">2</span><h2>본인계좌 일괄지급정지 실제 화면</h2>
+      <p>악성 앱이나 인증정보 유출로 내 다른 계좌까지 위험할 때 사용할 수 있는 금융결제원 메뉴입니다. 상대 계좌 지급정지와는 다른 기능이라고 본문에서 구분했습니다.</p>
+      <div class="where">배치 위치: ‘내 다른 계좌도 위험하다면’ 설명 바로 아래</div>
+    </div>
+    <figure>
+      <img src="../assets/2026-08-26-voice-phishing-account-freeze/03-payinfo-emergency-stop.png" alt="금융결제원 본인계좌 일괄지급정지 화면">
+      <figcaption>금융결제원 계좌정보통합관리서비스의 본인계좌 일괄지급정지 메뉴</figcaption>
+    </figure>
+  </article>
+
+  <article>
+    <div class="copy">
+      <span class="number">3</span><h2>경찰청 예방수칙 원본</h2>
+      <p>수사기관 금전 요구, 가족 사칭, 낯선 링크, 카드·등기 사칭을 한 장에서 확인하는 저장용 이미지입니다.</p>
+      <div class="where">배치 위치: ‘이런 말이 나오면 한 번 더 멈추세요’의 사기 유형 설명 뒤</div>
+    </div>
+    <figure>
+      <img class="poster" src="../assets/2026-08-26-voice-phishing-account-freeze/01-police-voice-phishing-prevention.jpeg" alt="경찰청 보이스피싱 예방수칙">
+      <figcaption>경찰청 공식 보이스피싱 예방수칙 원본</figcaption>
+    </figure>
+  </article>
+
+  <footer>추천: 이 주제는 유튜브 캡처보다 공식 화면 3장을 유지하고, 실제 보이스피싱 수법을 다루는 후속 글에서만 경찰청 공식 유튜브 영상을 보조 자료로 사용합니다.</footer>
+</main>
+</body>
+</html>
