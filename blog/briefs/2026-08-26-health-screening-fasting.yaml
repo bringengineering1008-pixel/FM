@@ -1,0 +1,81 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role:
+  primary: 유입
+  secondary: 검토
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "검진 전날과 당일 물·커피·담배 가능 여부를 확인하는 반복 검색"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "40대 이상 독자가 검진을 다시 받는 일을 피하도록 준비 기준을 저장하는 생활 건강 정보"
+  field_evidence:
+    - "국민건강보험공단 건강검진 안내문 실제 화면"
+topic: "건강검진 전 금식시간과 물·커피·담배 가능 여부"
+primary_keyword: "건강검진 전 금식"
+secondary_keywords:
+  - "건강검진 물"
+  - "건강검진 커피"
+  - "건강검진 금식시간"
+  - "오후 건강검진 금식"
+source_date: "2026-08-26"
+target_reader: "건강검진을 앞두고 전날 저녁부터 무엇을 먹고 마시면 안 되는지 확인하려는 40대 이상 독자"
+reader_scene: "검진 당일 아침 물이나 커피를 마셔도 되는지 몰라 검색하는 상황"
+one_objection: "물 한 잔이나 블랙커피는 검사 결과에 영향이 없을 것이라고 생각한다"
+promised_answer: "검진 전날 밤 9시 이후 금식과 당일 피해야 할 음식·음료, 오후 검진 기준과 예외를 구분해 알려준다"
+one_cta: 저장
+verified_facts:
+  - fact: "국민건강보험공단 안내문은 검진 전날 저녁 9시 이후 금식을 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.nhis.or.kr/static/html/wbma/c/wbhaca04700_2025_1.pdf"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "검진 당일 아침에는 물, 커피, 우유, 담배, 주스, 껌 등 일체의 음식을 삼가도록 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.nhis.or.kr/static/html/wbma/c/wbhaca04700_2025_1.pdf"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "오후 검진을 받는 사람은 검사 전 최소 8시간 이상 공복 상태를 유지하도록 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.nhis.or.kr/static/html/wbma/c/wbhaca04700_2025_1.pdf"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "대장암 분변잠혈검사, 유방암, 자궁경부암 검진은 금식 대상이 아니라고 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.nhis.or.kr/static/html/wbma/c/wbhaca04700_2025_1.pdf"
+    verified_on: "2026-08-26"
+    publishable: true
+photos:
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-health-screening-fasting/01-nhis-health-screening-precautions.png"
+    kind: 실제
+    role: "금식시간과 당일 금지 항목, 오후 검진 기준을 공식 화면 한 장에서 확인"
+    visible_fact: "전날 밤 9시 이후 금식, 당일 물·커피·우유·담배·주스·껌 금지, 오후 검진 최소 8시간 공복 안내"
+    caption: "국민건강보험공단 건강검진 안내문 가운데 금식 주의사항입니다."
+    mask: []
+work_scope:
+  bringcare_direct: []
+  partner_vendor: []
+  owner_decision: []
+  unverified: []
+related_posts:
+  - "건강검진 후 식사 주의사항 글로 연결 예정"
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "개인의 질환이나 복용약에 대한 의학적 판단을 하지 않는다."
+  - "약 복용과 수면내시경 준비는 예약한 검진기관 지침을 우선하도록 안내한다."
+  - "2025년 공단 안내문임을 출처에 명시하고 발행 전 최신 공지를 다시 확인한다."
+  - "상담 배너와 제휴 링크를 넣지 않는다."
+output_folder: "blog/assets/2026-08-26-health-screening-fasting"
+image_fallback:
+  real_photo_attempted: true
+  failure_reason: "건강검진 준비 기준은 생성 이미지보다 공단 실제 안내 화면이 근거로 적합하다."
+  ai_allowed: false
+  disclosure_required: false
+learning_context:
+  similar_post_ids: []
+  historical_performance_score: 5
+  cooldown_checked_on: "2026-08-26"
+
