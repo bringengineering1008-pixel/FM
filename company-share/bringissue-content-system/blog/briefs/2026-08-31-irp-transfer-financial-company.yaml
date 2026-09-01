@@ -1,0 +1,28 @@
+request_mode: 키워드발굴
+distribution_goal: 검색
+content_role: {primary: 유입, secondary: 검토}
+post_type: 검색정보
+content_engine: traffic
+engine_evidence: {realtime_signal: "IRP 금융회사 이전 방법 반복 검색", purchase_problem: null, approved_affiliate_url: null, ad_disclosure: null, business_relevance: "퇴직연금 관리 비용 판단", field_evidence: ["고용노동부 퇴직연금 실물이전 카드뉴스"]}
+topic: "IRP 금융회사 계약이전"
+primary_keyword: "IRP 이전 방법"
+secondary_keywords: ["IRP 금융회사 이전", "퇴직연금 이전"]
+source_date: "2026-08-27"
+target_reader: "IRP 수수료나 상품 구성 때문에 금융회사를 옮기려는 가입자"
+reader_scene: "해지와 계약이전 중 올바른 절차를 찾는 상황"
+one_objection: "기존 계좌를 해지한 뒤 새 계좌에 다시 넣으면 된다고 생각한다"
+promised_answer: "새 금융회사에서 시작하는 이전 순서와 확인 비용을 알려준다"
+one_cta: 저장
+verified_facts:
+  - {fact: "퇴직연금 실물이전은 동일한 제도 안에서 가능하며 수관 금융회사도 동일한 상품을 취급해야 한다.", source_type: 공식출처, source_url: "https://moel.go.kr/news/cardinfo/view.do?bbs_seq=20250701716", verified_on: "2026-08-27", publishable: true}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-31-irp-transfer-financial-company/01-moel-pension-transfer-eligibility.jpg", kind: 실제, role: "실물이전 조건", visible_fact: "DB·DC·IRP는 동일 제도끼리, 동일 상품이 있을 때 실물이전 가능", caption: "고용노동부 퇴직연금 실물이전 조건", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-31-irp-transfer-financial-company/02-moel-pension-transfer-precheck.jpg", kind: 실제, role: "사전조회 방법", visible_fact: "금융회사 앱의 퇴직연금 실물이전 사전조회", caption: "고용노동부 실물이전 사전조회 안내", mask: []}
+related_posts: ["연금저축펀드와 보험 차이"]
+public_location_scope: 대한민국
+cost_time_publishable: false
+constraints: ["이전 기간과 비용을 단정하지 않는다", "상담 배너를 넣지 않는다"]
+output_folder: "blog/assets/2026-08-31-irp-transfer-financial-company"
+image_fallback: {real_photo_attempted: true, failure_reason: "공식 화면이 적합", ai_allowed: false, disclosure_required: false}
+learning_context: {similar_post_ids: [], historical_performance_score: 5, cooldown_checked_on: "2026-08-27"}

@@ -1,0 +1,368 @@
+{
+  "checked_at": "2026-08-23T21:40:00+09:00",
+  "trend_source": "https://pikk.co.kr/youtube-trends",
+  "blog_id": "bringissue",
+  "posts": [
+    {
+      "order": 1,
+      "slug": "anniversaries-excuse-ep116",
+      "engine": "editorial",
+      "video_id": "tBro21UtTIs",
+      "url": "https://www.youtube.com/watch?v=tBro21UtTIs",
+      "channel": "뜬뜬 DdeunDdeun",
+      "source_title": "Anniversaries Are Just an Excuse｜EP.116",
+      "editorial_angle": "기념일 토크에서 예상 밖 진심이 드러난 순간",
+      "draft_title": "기념일은 핑계고, 웃음 뒤에 남은 진심",
+      "thumbnail_text": [
+        "기념일은 핑계고",
+        "웃음 뒤 진심"
+      ],
+      "scheduled_at": "2026-08-25T07:30:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "방송"
+    },
+    {
+      "order": 2,
+      "slug": "shortbox-hypermarket",
+      "engine": "editorial",
+      "video_id": "6w-RgtLi2ZY",
+      "url": "https://www.youtube.com/watch?v=6w-RgtLi2ZY",
+      "channel": "숏박스",
+      "source_title": "대형 마트",
+      "editorial_angle": "대형마트에서 누구나 겪는 선택과 눈치의 디테일",
+      "draft_title": "숏박스 대형마트, 다들 겪어본 장면이 웃긴 이유",
+      "thumbnail_text": [
+        "대형마트에서",
+        "다들 이러죠"
+      ],
+      "scheduled_at": "2026-08-25T09:00:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "방송"
+    },
+    {
+      "order": 3,
+      "slug": "lee-suhyun-blue-lagoon",
+      "engine": "editorial",
+      "video_id": "LlFB4Tk49kI",
+      "url": "https://www.youtube.com/watch?v=LlFB4Tk49kI",
+      "channel": "이수현 Official",
+      "source_title": "Blue Lagoon (Korean Ver.)",
+      "editorial_angle": "한국어 버전에서 더 선명해진 이수현의 목소리와 정서",
+      "draft_title": "이수현 Blue Lagoon 한국어 버전, 첫 소절부터 달라진 분위기",
+      "thumbnail_text": [
+        "첫 소절부터",
+        "분위기가 달랐다"
+      ],
+      "scheduled_at": "2026-08-25T10:30:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "음악"
+    },
+    {
+      "order": 4,
+      "slug": "aespa-serenade",
+      "engine": "editorial",
+      "video_id": "R30DHQSos8I",
+      "url": "https://www.youtube.com/watch?v=R30DHQSos8I",
+      "channel": "aespa",
+      "source_title": "Serenade (KARINA & WINTER)",
+      "editorial_angle": "카리나와 윈터의 음색 대비가 만든 감정선",
+      "draft_title": "카리나·윈터 Serenade, 두 목소리가 만난 순간",
+      "thumbnail_text": [
+        "카리나와 윈터",
+        "두 목소리의 힘"
+      ],
+      "scheduled_at": "2026-08-25T12:00:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "음악"
+    },
+    {
+      "order": 5,
+      "slug": "silica-gel-manphasickzuck",
+      "engine": "editorial",
+      "video_id": "AJluE9pTg6o",
+      "url": "https://www.youtube.com/watch?v=AJluE9pTg6o",
+      "channel": "Silica Gel 실리카겔",
+      "source_title": "Silica Gel - Manphasickzuck [M/V]",
+      "editorial_angle": "낯선 이미지와 사운드가 반복 시청을 부르는 방식",
+      "draft_title": "실리카겔 Manphasickzuck, 한 번 보고 설명하기 어려운 이유",
+      "thumbnail_text": [
+        "한 번 보고는",
+        "설명 안 되는 MV"
+      ],
+      "scheduled_at": "2026-08-25T13:30:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "음악"
+    },
+    {
+      "order": 6,
+      "slug": "hynn-three-days-after",
+      "engine": "editorial",
+      "video_id": "7tp45qgQuCQ",
+      "url": "https://www.youtube.com/watch?v=7tp45qgQuCQ",
+      "channel": "박혜원HYNN",
+      "source_title": "HYNN - Three days after",
+      "editorial_angle": "절제된 도입에서 폭발하는 후반까지의 감정 변화",
+      "draft_title": "HYNN Three days after, 후반부가 더 아프게 들린 이유",
+      "thumbnail_text": [
+        "조용히 시작해",
+        "끝내 터졌다"
+      ],
+      "scheduled_at": "2026-08-25T15:00:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "음악"
+    },
+    {
+      "order": 7,
+      "slug": "juho-rusted-heart",
+      "engine": "editorial",
+      "video_id": "vFVYIPb_Stk",
+      "url": "https://www.youtube.com/watch?v=vFVYIPb_Stk",
+      "channel": "1theK (원더케이)",
+      "source_title": "[MV] Juho(주호) _ Rusted Heart(녹슨 가슴)",
+      "editorial_angle": "익숙한 발라드 정서를 새 영상 문법으로 살린 장면",
+      "draft_title": "주호 녹슨 가슴, 익숙한 이별 노래가 다시 들린 이유",
+      "thumbnail_text": [
+        "익숙한 이별인데",
+        "다시 들린 이유"
+      ],
+      "scheduled_at": "2026-08-25T16:30:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "음악"
+    },
+    {
+      "order": 8,
+      "slug": "george-bgf",
+      "engine": "editorial",
+      "video_id": "Dz9TQcPmX1o",
+      "url": "https://www.youtube.com/watch?v=Dz9TQcPmX1o",
+      "channel": "죠지 and EMA",
+      "source_title": "죠지(george) - bgf (Official Lyric Video)",
+      "editorial_angle": "담백한 가사와 화면이 여운을 길게 만드는 방식",
+      "draft_title": "죠지 bgf, 화려하지 않은데 계속 듣게 되는 이유",
+      "thumbnail_text": [
+        "화려하지 않은데",
+        "계속 듣게 된다"
+      ],
+      "scheduled_at": "2026-08-25T18:00:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "음악"
+    },
+    {
+      "order": 9,
+      "slug": "hyean-department-store",
+      "engine": "editorial",
+      "video_id": "HxRcNPQHPCE",
+      "url": "https://www.youtube.com/watch?v=HxRcNPQHPCE",
+      "channel": "혜안",
+      "source_title": "백화점을 정리하라고요? 혜안져스 어셈블",
+      "editorial_angle": "정리 게임이 협업 예능처럼 바뀌는 과정",
+      "draft_title": "혜안 백화점 정리, 한 시간이 순식간이었던 이유",
+      "thumbnail_text": [
+        "백화점 정리인데",
+        "한 시간이 삭제됐다"
+      ],
+      "scheduled_at": "2026-08-25T20:00:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "게임"
+    },
+    {
+      "order": 10,
+      "slug": "dduddu-khan-project",
+      "engine": "editorial",
+      "video_id": "nXhbYxkDcY0",
+      "url": "https://www.youtube.com/watch?v=nXhbYxkDcY0",
+      "channel": "뜨뜨뜨뜨",
+      "source_title": "뜨뜨뜨뜨 갱생 프로젝트, 칸 사부님 모셨습니다.",
+      "editorial_angle": "실력보다 관계와 피드백이 재미를 만든 순간",
+      "draft_title": "뜨뜨뜨뜨 갱생 프로젝트, 칸 사부가 바꾼 한 가지",
+      "thumbnail_text": [
+        "칸 사부 등장",
+        "분위기가 바뀌었다"
+      ],
+      "scheduled_at": "2026-08-25T22:00:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "게임"
+    },
+    {
+      "order": 11,
+      "slug": "ralo-humble",
+      "engine": "editorial",
+      "video_id": "TNmmOmFfkRA",
+      "url": "https://www.youtube.com/watch?v=TNmmOmFfkRA",
+      "channel": "랄로",
+      "source_title": "깝죽거리지마라 항상 겸손해라",
+      "editorial_angle": "자신감이 순식간에 반전되는 게임 서사",
+      "draft_title": "랄로 항상 겸손해라, 자신감이 뒤집힌 바로 그 장면",
+      "thumbnail_text": [
+        "자신감 넘쳤는데",
+        "바로 뒤집혔다"
+      ],
+      "scheduled_at": "2026-08-26T07:30:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "게임"
+    },
+    {
+      "order": 12,
+      "slug": "malwang-haptic-suit",
+      "engine": "editorial",
+      "video_id": "hYt4KzhFsJY",
+      "url": "https://www.youtube.com/watch?v=hYt4KzhFsJY",
+      "channel": "말왕TV",
+      "source_title": "마개조 촉각 슈트 입고 배그 치킨 먹기",
+      "editorial_angle": "게임 속 타격을 몸으로 받는 장치가 플레이를 바꾼 방식",
+      "draft_title": "말왕 촉각 슈트 배그, 한 발 맞을 때마다 진짜 반응이 나온 이유",
+      "thumbnail_text": [
+        "한 발 맞을 때마다",
+        "진짜 아팠다"
+      ],
+      "scheduled_at": "2026-08-26T09:00:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "게임"
+    },
+    {
+      "order": 13,
+      "slug": "itsub-steam-machine",
+      "engine": "editorial",
+      "video_id": "JbQPce7DXRY",
+      "url": "https://www.youtube.com/watch?v=JbQPce7DXRY",
+      "channel": "ITSub잇섭",
+      "source_title": "한국인들은 못 사는 게임PC? 스팀머신 첫인상!",
+      "editorial_angle": "스팀머신의 장점과 국내 구매 전 확인할 현실 조건",
+      "draft_title": "스팀머신 첫인상, 한국에서 사기 전 꼭 볼 세 가지",
+      "thumbnail_text": [
+        "한국인은 못 산다?",
+        "구매 전 3가지"
+      ],
+      "scheduled_at": "2026-08-26T10:30:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "상품리뷰"
+    },
+    {
+      "order": 14,
+      "slug": "wolf-kt-t1",
+      "engine": "editorial",
+      "video_id": "TzYWpUCZ1mE",
+      "url": "https://www.youtube.com/watch?v=TzYWpUCZ1mE",
+      "channel": "Wolf",
+      "source_title": "빨간 안경은 누가? KT vs T1 2026 LCK",
+      "editorial_angle": "전프로의 시선으로 본 승부가 갈린 장면",
+      "draft_title": "KT vs T1 빨간 안경의 주인, Wolf가 짚은 결정적 장면",
+      "thumbnail_text": [
+        "빨간 안경 주인은",
+        "결국 누구?"
+      ],
+      "scheduled_at": "2026-08-26T12:00:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "스포츠"
+    },
+    {
+      "order": 15,
+      "slug": "jamddul-weather-tag",
+      "engine": "editorial",
+      "video_id": "nJbm9BN5o1U",
+      "url": "https://www.youtube.com/watch?v=nJbm9BN5o1U",
+      "channel": "잠뜰 TV",
+      "source_title": "최애 날씨가 술래잡기 사기 능력이 된다면",
+      "editorial_angle": "날씨 능력이 규칙과 심리전을 바꾼 과정",
+      "draft_title": "잠뜰 최애 날씨 술래잡기, 가장 사기였던 능력은",
+      "thumbnail_text": [
+        "최애 날씨가",
+        "사기 능력이라면"
+      ],
+      "scheduled_at": "2026-08-26T13:30:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "게임"
+    },
+    {
+      "order": 16,
+      "slug": "lck-kt-t1-game3",
+      "engine": "editorial",
+      "video_id": "E545HpEF060",
+      "url": "https://www.youtube.com/watch?v=E545HpEF060",
+      "channel": "LCK",
+      "source_title": "KT vs T1 게임 3 하이라이트 2026 LCK",
+      "editorial_angle": "공식 하이라이트에서 확인한 경기 흐름의 전환점",
+      "draft_title": "KT vs T1 3세트, 흐름이 완전히 넘어간 순간",
+      "thumbnail_text": [
+        "3세트 승부",
+        "여기서 갈렸다"
+      ],
+      "scheduled_at": "2026-08-26T15:00:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "스포츠"
+    },
+    {
+      "order": 17,
+      "slug": "lee-kangin-debut-goal",
+      "engine": "editorial",
+      "video_id": "W3Eriw_MkOY",
+      "url": "https://www.youtube.com/watch?v=W3Eriw_MkOY",
+      "channel": "제자르",
+      "source_title": "이강인 데뷔골의 비밀",
+      "editorial_angle": "득점 장면 전 움직임과 감독 지시를 분리해 살펴본 해설",
+      "draft_title": "이강인 데뷔골, 골 장면보다 먼저 봐야 할 움직임",
+      "thumbnail_text": [
+        "데뷔골의 비밀",
+        "골 전 움직임"
+      ],
+      "scheduled_at": "2026-08-26T16:30:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "스포츠"
+    },
+    {
+      "order": 18,
+      "slug": "gdragon-ad-acting",
+      "engine": "editorial",
+      "video_id": "t3Ge_j4ADjo",
+      "url": "https://www.youtube.com/watch?v=t3Ge_j4ADjo",
+      "channel": "하나TV",
+      "source_title": "하나 유니버스 트레일러",
+      "editorial_angle": "짧은 광고에서 지드래곤의 표정과 타이밍이 화제가 된 이유",
+      "draft_title": "지드래곤 광고 연기, 짧은 장면이 계속 회자된 이유",
+      "thumbnail_text": [
+        "짧은 광고인데",
+        "계속 회자됐다"
+      ],
+      "scheduled_at": "2026-08-26T18:00:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "방송"
+    },
+    {
+      "order": 19,
+      "slug": "lee-donghwi-adlib",
+      "engine": "editorial",
+      "video_id": "9UIGzxHaS2w",
+      "url": "https://www.youtube.com/watch?v=9UIGzxHaS2w",
+      "channel": "채터박스",
+      "source_title": "배우 이동휘 애드립 모음",
+      "editorial_angle": "애드리브가 캐릭터와 장면의 리듬을 살리는 방식",
+      "draft_title": "이동휘 애드립 모음, 대본 같아서 더 놀라운 순간들",
+      "thumbnail_text": [
+        "대본인 줄 알았는데",
+        "전부 애드리브?"
+      ],
+      "scheduled_at": "2026-08-26T20:00:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "방송"
+    },
+    {
+      "order": 20,
+      "slug": "samsung-scan-pdf",
+      "engine": "editorial",
+      "video_id": "v98FSNOJehY",
+      "url": "https://www.youtube.com/watch?v=v98FSNOJehY",
+      "channel": "욜디_컴퓨터 인터넷 기초강의",
+      "source_title": "휴대폰 카메라로 문서 스캔하고 바로 PDF파일로 저장하는 방법",
+      "editorial_angle": "별도 앱 없이 문서를 깔끔하게 PDF로 만드는 실용 과정",
+      "draft_title": "휴대폰 문서 스캔 PDF 저장, 가장 간단한 순서",
+      "thumbnail_text": [
+        "사진만 찍으면",
+        "PDF가 된다"
+      ],
+      "scheduled_at": "2026-08-26T22:00:00+09:00",
+      "category": "오늘 뜬 유튜브",
+      "topic": "IT"
+    }
+  ]
+}
+

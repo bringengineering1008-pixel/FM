@@ -1,0 +1,41 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role: {primary: 검토, secondary: 유입}
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "8월 말은 10~11월 단풍 숙소를 미리 비교·예약하는 시점이며, 국립공원공단은 내장산 10~11월을 가을 성수기로 안내함"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "순수 대중 유입형. 승인된 제휴 링크 확보 전에는 상품·숙소를 판매하지 않음"
+  field_evidence: []
+topic: "2026 가을 단풍 숙소 예약 실패를 줄이는 기준"
+primary_keyword: "단풍 숙소 예약"
+secondary_keywords: ["2026 단풍 시기", "단풍 숙소", "가을 여행 숙소", "숙박 취소 환불"]
+source_date: "2026-08-23"
+target_reader: "10~11월 단풍 여행을 계획하며 숙소를 미리 예약하려는 30~60대 가족·커플"
+reader_scene: "단풍 절정일이 확정되지 않은 상태에서 숙소가 마감될까 보아 급하게 결제하려는 상황"
+one_objection: "단풍 예상일 하나만 믿고 환불 불가 숙소를 선택하면 날씨·절정 시기가 어긋났을 때 선택지가 없다"
+promised_answer: "절정 날짜를 맞히기보다 취소 조건·이동·탐방 예약을 함께 비교하는 5단계 예약법을 제공한다"
+one_cta: 저장
+verified_facts:
+  - {fact: "산림청은 2025년 산림단풍 예측지도를 2025년 10월 1일 발표했으며, 당시 전망은 대체로 10월 하순부터 11월 초 절정이었다.", source_type: 공식출처, source_url: "https://www.forest.go.kr/kfsweb/cop/bbs/selectBoardList.do?Popup=&bbsId=BBSMSTR_1036&ctgryLrcls=&mn=NKFS_04_02_01&ntcEndDt=&ntcStartDt=&orgId=&pageUnit=10&searchWrd=%EB%8B%A8%ED%92%8D&searchtitle=title", verified_on: "2026-08-23", publishable: true}
+  - {fact: "산림청은 단풍 시기가 지역과 수종에 따라 다르며 관측자료와 산악기상정보를 바탕으로 예측지도를 발표한다고 설명한다.", source_type: 공식출처, source_url: "https://www.forest.go.kr/kfsweb/cop/bbs/selectBoardArticle.do?bbsId=BBSMSTR_1036&mn=NKFS_04_02_01&nttId=3200094", verified_on: "2026-08-23", publishable: true}
+  - {fact: "국립공원공단은 내장산의 10~11월 가을 성수기에 경내 차량 통제로 진입이 어려울 수 있다고 안내한다.", source_type: 공식출처, source_url: "https://res.knps.or.kr/contents/G/serviceGuide.do?parkId=B042", verified_on: "2026-08-23", publishable: true}
+  - {fact: "한국소비자원은 숙박 계약 전 숙박일·소재지·요금과 플랫폼·숙박업체의 취소·환급 규정을 함께 확인하도록 안내한다.", source_type: 공식출처, source_url: "https://www.kca.go.kr/webzine/board/view?div=kca_2108&linkId=334&menuId=MENU00307", verified_on: "2026-08-23", publishable: true}
+  - {fact: "한국소비자원은 예약 취소 후 완료 여부를 확인하고, 취소 시점을 입증할 이메일·문자를 보관하도록 권고한다.", source_type: 공식출처, source_url: "https://www.kca.go.kr/webzine/board/view?div=kca_2108&linkId=334&menuId=MENU00307", verified_on: "2026-08-23", publishable: true}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-autumn-foliage-lodging/kto-autumn-foliage.jpg", kind: 실제, role: "가을 단풍 여행 도입", visible_fact: "붉고 노란 단풍 사이 데크길을 걷는 방문객이 보인다", caption: "한국관광공사 포토코리아 제공 가을 단풍 이미지", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-autumn-foliage-lodging/kca-lodging-refund.jpg", kind: 실제, role: "숙박 예약·환불 조건 확인", visible_fact: "노트북으로 숙소를 검색하는 여행 준비 장면이 보인다", caption: "숙소 사진보다 먼저 취소·환불 조건을 확인해야 합니다. 한국소비자원 자료", mask: []}
+related_posts: []
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "2026년 단풍 절정일을 예측치로 단정하지 않는다."
+  - "승인된 숙박 제휴 링크 없이 특정 숙소를 권하거나 예약을 유도하지 않는다."
+  - "개별 플랫폼과 상품별 환불 조건이 다를 수 있음을 명시한다."
+output_folder: "blog/assets/2026-08-23-autumn-foliage-lodging"
+image_fallback: {real_photo_attempted: true, failure_reason: null, ai_allowed: true, disclosure_required: true}
+learning_context: {similar_post_ids: [], historical_performance_score: 5, cooldown_checked_on: "2026-08-23"}

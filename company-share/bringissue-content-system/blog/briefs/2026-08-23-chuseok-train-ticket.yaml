@@ -1,0 +1,112 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role:
+  primary: 유입
+  secondary: 검토
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "한국철도공사 2026-08-14 공식 추석 승차권 예매 발표"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "브링이슈 대중 생활정보 콘텐츠"
+  field_evidence: []
+topic: "2026 추석 기차표 예매 일정과 사전 준비"
+primary_keyword: "2026 추석 기차표 예매"
+secondary_keywords:
+  - "추석 KTX 예매"
+  - "코레일 추석 예매 일정"
+  - "추석 기차표 통합회원"
+  - "추석 기차표 결제"
+source_date: "2026-08-14"
+target_reader: "추석 연휴에 KTX 또는 일반열차로 이동하려는 30~50대 가족"
+reader_scene: "예매 당일 아침에 앱을 열었지만 회원 전환이나 노선별 날짜를 몰라 시간을 잃을 수 있는 상황"
+one_objection: "예매일에 코레일 앱만 열면 바로 살 수 있다고 생각한다"
+promised_answer: "내 노선의 정확한 예매일과 예매 전날까지 준비할 항목, 예약 후 결제 기한을 한 번에 알려준다"
+one_cta: 저장
+verified_facts:
+  - fact: "2026년 추석 승차권 예매 대상은 9월 23일부터 27일까지 5일간 운행하는 열차다."
+    source_type: 공식출처
+    source_url: "https://info.korail.com/info/selectBbsNttView.do?bbsNo=199&integrDeptCode=&key=911&nttNo=27180&pageIndex=28&searchCnd=all&searchCtgry=&searchKrwd="
+    verified_on: "2026-08-23"
+    publishable: true
+  - fact: "모든 국민 대상 일반예매는 9월 7일부터 11일까지 매일 오전 7시부터 오후 1시까지 진행된다."
+    source_type: 공식출처
+    source_url: "https://info.korail.com/info/selectBbsNttView.do?bbsNo=199&integrDeptCode=&key=911&nttNo=27180&pageIndex=28&searchCnd=all&searchCtgry=&searchKrwd="
+    verified_on: "2026-08-23"
+    publishable: true
+  - fact: "추석 예매는 코레일 통합회원만 가능하며 SR 단독 회원은 사전 전환이 필요하다."
+    source_type: 공식출처
+    source_url: "https://info.korail.com/info/selectBbsNttView.do?bbsNo=199&integrDeptCode=&key=911&nttNo=27180&pageIndex=28&searchCnd=all&searchCtgry=&searchKrwd="
+    verified_on: "2026-08-23"
+    publishable: true
+  - fact: "일반 예매는 전용 웹페이지 접속 이후 3분 이내에 완료해야 한다."
+    source_type: 공식출처
+    source_url: "https://info.korail.com/info/selectBbsNttView.do?bbsNo=199&integrDeptCode=&key=911&nttNo=27180&pageIndex=28&searchCnd=all&searchCtgry=&searchKrwd="
+    verified_on: "2026-08-23"
+    publishable: true
+  - fact: "결제는 9월 12일 0시부터 가능하고 일반 예매분은 15일까지, 교통약자 사전예매분은 18일까지 결제해야 한다."
+    source_type: 공식출처
+    source_url: "https://info.korail.com/info/selectBbsNttView.do?bbsNo=199&integrDeptCode=&key=911&nttNo=27180&pageIndex=28&searchCnd=all&searchCtgry=&searchKrwd="
+    verified_on: "2026-08-23"
+    publishable: true
+work_scope:
+  bringcare_direct: []
+  partner_vendor: []
+  owner_decision: []
+  unverified: []
+photos:
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-chuseok-train-ticket/ktx-unsplash.jpg"
+    kind: 실제
+    role: "대표 이미지 배경과 추석 열차 이동 장면"
+    visible_fact: "KTX 열차와 승강장이 보이는 실제 사진"
+    caption: "추석 열차표는 예매일보다 회원과 노선 확인이 먼저입니다. 사진: Charlie Chen/Unsplash"
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-chuseok-train-ticket/ktx-wikimedia.jpg"
+    kind: 실제
+    role: "KTX 설명 장면"
+    visible_fact: "승강장에 정차한 KTX 열차가 보이는 실제 사진"
+    caption: "승강장에 정차한 KTX. 사진: Aurelijus Valeiša/Wikimedia Commons, CC BY-SA"
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-chuseok-train-ticket/schedule-card.jpg"
+    kind: 설명도
+    role: "일반 예매 일정 안내"
+    visible_fact: "9월 7일부터 11일까지의 노선별 예매 일정이 표시된 자체 제작 카드"
+    caption: "2026 추석 일반 예매 일정. 자료: 한국철도공사"
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-chuseok-train-ticket/gemini-family-planning.png"
+    kind: AI
+    role: "예매 전 가족 준비 상황 해설"
+    visible_fact: "두 성인이 노트북과 휴대전화로 준비하는 에디토리얼 일러스트"
+    caption: "AI로 제작한 이해용 이미지입니다."
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-chuseok-train-ticket/gemini-countdown.png"
+    kind: AI
+    role: "예매 시작 직전 집중 상황 해설"
+    visible_fact: "한 성인이 이른 아침 노트북 앞에서 기다리는 에디토리얼 일러스트"
+    caption: "AI로 제작한 이해용 이미지입니다."
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-chuseok-train-ticket/gemini-payment-calendar.png"
+    kind: AI
+    role: "예약 후 결제일 확인 행동 해설"
+    visible_fact: "두 성인이 빈 달력에 색 원을 표시하는 에디토리얼 일러스트"
+    caption: "AI로 제작한 이해용 이미지입니다."
+    mask: []
+related_posts: []
+public_location_scope: 전국
+cost_time_publishable: true
+constraints:
+  - "코레일 첨부 홍보 이미지는 공공누리 제4유형이므로 수익형 블로그에 복제하지 않는다."
+  - "실제 승차권 예약이나 결제를 수행하지 않는다."
+  - "검색·홈피드 노출을 보장하지 않는다."
+output_folder: "blog/assets/2026-08-23-chuseok-train-ticket"
+image_fallback:
+  real_photo_attempted: true
+  failure_reason: "공식 첨부 이미지는 상업적 이용 금지 조건이 있어 대표 이미지로 사용할 수 없음"
+  ai_allowed: true
+  disclosure_required: true
+learning_context:
+  similar_post_ids: []
+  historical_performance_score: 5
+  cooldown_checked_on: "2026-08-23"

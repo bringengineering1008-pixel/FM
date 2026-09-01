@@ -1,0 +1,27 @@
+request_mode: 키워드발굴
+distribution_goal: 검색
+content_role: {primary: 유입, secondary: 검토}
+post_type: 검색정보
+content_engine: traffic
+engine_evidence: {realtime_signal: "연금저축펀드와 보험 차이 반복 검색", purchase_problem: null, approved_affiliate_url: null, ad_disclosure: null, business_relevance: "40대 이상 연금상품 선택", field_evidence: ["금융위원회 2025년 연금저축 투자 백서 비교표"]}
+topic: "연금저축펀드와 연금저축보험 비교"
+primary_keyword: "연금저축펀드 연금저축보험 차이"
+secondary_keywords: ["연금저축 비교", "연금저축 사업비"]
+source_date: "2026-08-27"
+target_reader: "두 연금저축 유형 중 하나를 선택하려는 가입자"
+reader_scene: "세액공제 외 운용·비용·유지 조건을 비교하는 상황"
+one_objection: "연금저축이라는 이름이 같아 구조도 같다고 생각한다"
+promised_answer: "운용 방식·비용·중도해지 확인 항목을 비교한다"
+one_cta: 저장
+verified_facts:
+  - {fact: "금융위원회는 연금저축보험과 연금저축펀드의 판매사·납입방식·적용금리·원금보장·연금수령 방식을 구분해 안내한다.", source_type: 공식출처, source_url: "https://www.fsc.go.kr/no010101/87144", verified_on: "2026-08-27", publishable: true}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-31-pension-fund-vs-insurance/01-fsc-pension-insurance-fund-comparison.jpg", kind: 실제, role: "상품 구조 비교", visible_fact: "연금저축보험과 펀드의 판매사·납입방식·적용금리·원금보장·연금수령방식", caption: "금융위원회 연금저축보험·펀드 공식 비교표", mask: []}
+related_posts: ["IRP 금융회사 이전"]
+public_location_scope: 대한민국
+cost_time_publishable: false
+constraints: ["특정 상품을 추천하지 않는다", "상담 배너를 넣지 않는다"]
+output_folder: "blog/assets/2026-08-31-pension-fund-vs-insurance"
+image_fallback: {real_photo_attempted: true, failure_reason: "공식 화면이 적합", ai_allowed: false, disclosure_required: false}
+learning_context: {similar_post_ids: [], historical_performance_score: 5, cooldown_checked_on: "2026-08-27"}

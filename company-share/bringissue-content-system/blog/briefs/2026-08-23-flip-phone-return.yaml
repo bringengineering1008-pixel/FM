@@ -1,0 +1,40 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role: {primary: 유입, secondary: 검토}
+post_type: 트렌드
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "KBS News가 2026-08-18 공개한 덤폰·플립폰 회귀 영상이 2026-08-23 확인 시점 71만 조회를 기록함"
+  purchase_problem: "디지털 디톡스를 위해 기기를 바꿀지, 스마트폰 설정부터 줄일지 판단이 필요함"
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "순수 유입·구매 전 판단형. 승인된 제휴 링크 전에는 특정 제품 구매를 유도하지 않음"
+  field_evidence: []
+topic: "Z세대 플립폰·덤폰 회귀와 구매 전 확인할 현실 조건"
+primary_keyword: "플립폰"
+secondary_keywords: ["덤폰", "디지털 디톡스", "폴더폰", "바비폰", "스마트폰 중독"]
+source_date: "2026-08-23"
+target_reader: "스마트폰 피로 때문에 플립폰·덤폰 구매를 고민하는 독자"
+reader_scene: "짧은 영상과 알림을 줄이고 싶어 구형 폴더폰이나 디지털 미니멀폰을 검색하는 상황"
+one_objection: "기기만 바꾸면 불편해질 수 있고 국내 통신·인증·메신저 호환성을 먼저 확인해야 한다"
+promised_answer: "왜 플립폰이 다시 주목받는지와 구매 전 확인할 기능·통신·생활 조건을 실제 제품 사양과 함께 정리한다"
+one_cta: 저장
+verified_facts:
+  - {fact: "KBS 영상은 Z세대의 디지털 피로와 SNS 중단 움직임, 전화·문자 중심 덤폰 수요를 소개했다.", source_type: 공식출처, source_url: "https://www.youtube.com/watch?v=MTcsx6ddFlE", verified_on: "2026-08-23", publishable: true}
+  - {fact: "KBS 영상은 덤폰을 전화와 문자 정도만 남긴 기기뿐 아니라 스마트폰 성능을 유지하면서 소셜미디어를 막은 모델까지 포함해 설명했다.", source_type: 공식출처, source_url: "https://www.youtube.com/watch?v=MTcsx6ddFlE", verified_on: "2026-08-23", publishable: true}
+  - {fact: "HMD Barbie Phone 4G 공식 사양은 S30+ 운영체제, 4G, 2.8인치 화면, 0.3MP 카메라, 128MB 저장공간, 최대 32GB microSD 지원을 명시한다.", source_type: 공식출처, source_url: "https://www.hmd.com/en_int/hmd-barbie-phone/specs", verified_on: "2026-08-23", publishable: true}
+  - {fact: "Light Phone III 공식 안내는 기본 전화 기능 외에 카메라·앨범·알람을 제공하고, 지도·캘린더 등 도구는 사용자가 선택적으로 관리하는 구조라고 설명한다.", source_type: 공식출처, source_url: "https://support.thelightphone.com/hc/en-us/articles/36100487624980-Light-Phone-III-Introduction", verified_on: "2026-08-23", publishable: true}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-flip-phone-return/kbs-official-thumbnail.jpg", kind: 실제, role: "대표 이미지와 영상 화제 설명", visible_fact: "KBS NEWS 로고, 진행자, 스마트폰을 든 손과 플립폰 회귀를 설명하는 제목 문구가 보인다", caption: "KBS W언박싱이 소개한 스마트폰 피로와 플립폰 회귀. 화면: KBS News 공식 영상", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-flip-phone-return/hmd-barbie-phone-official.jpg", kind: 실제, role: "실제 판매 덤폰 사양 설명", visible_fact: "분홍색 HMD Barbie Phone 4G의 앞면과 뒷면 제품 이미지가 보인다", caption: "전화·문자 중심 플립폰의 실제 사례. 이미지: HMD 공식 제품 페이지", mask: []}
+related_posts: []
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "영상 출연자의 개인 경험을 모든 사용자에게 나타나는 건강 효과로 일반화하지 않는다."
+  - "해외 제품이 국내 통신망·유심·교통·금융·인증 서비스와 호환된다고 단정하지 않는다."
+  - "승인된 제휴 링크와 광고 고지 전에는 특정 제품 구매 CTA를 넣지 않는다."
+output_folder: "blog/assets/2026-08-23-flip-phone-return"
+image_fallback: {real_photo_attempted: true, failure_reason: null, ai_allowed: true, disclosure_required: true}
+learning_context: {similar_post_ids: [], historical_performance_score: 5, cooldown_checked_on: "2026-08-23"}

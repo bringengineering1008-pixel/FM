@@ -1,0 +1,42 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role: {primary: 유입, secondary: null}
+post_type: 트렌드
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "2026-07-25 산디에고 코믹콘에서 마블 스튜디오가 어벤져스: 둠스데이의 추가 출연진·설정·개봉일을 공개함"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "순수 엔터테인먼트 유입형. 예매·굿즈 제휴는 승인 링크 전에 사용하지 않음"
+  field_evidence: []
+topic: "2026 코믹콘 이후 어벤져스 둠스데이 공식 확정 정보"
+primary_keyword: "어벤져스 둠스데이"
+secondary_keywords: ["어벤져스 둠스데이 개봉일", "어벤져스 둠스데이 출연진", "로버트 다우니 주니어 닥터 둠", "크리스 에번스 둠스데이"]
+source_date: "2026-08-23"
+target_reader: "루머가 아닌 현재 공식 확정 정보만 보고 싶은 MCU 관객"
+reader_scene: "개봉일·출연진·이야기 루머가 섞인 게시물을 보고 무엇이 확정인지 혼란스러운 상황"
+one_objection: "예전 개봉일과 현재 개봉일, 코믹스 설정과 영화 공식 설정을 구분하지 않으면 잘못된 정보가 된다"
+promised_answer: "2026-08-23 기준 개봉일·감독·주요 출연진·공식 줄거리 문구와 아직 안 밝혀진 부분을 분리한다"
+one_cta: 저장
+verified_facts:
+  - {fact: "마블·디즈니 공식 기준 어벤져스: 둠스데이는 2026년 12월 18일 극장 개봉 예정이다.", source_type: 공식출처, source_url: "https://thewaltdisneycompany.com/news/marvel-studios-comic-con-2026/", verified_on: "2026-08-23", publishable: true}
+  - {fact: "안소니 루소와 조 루소가 감독하고 케빈 파이기, 루이스 데스포지토, 조나단 슈바르츠가 프로듀서로 발표됐다.", source_type: 공식출처, source_url: "https://thewaltdisneycompany.com/news/marvel-studios-comic-con-2026/", verified_on: "2026-08-23", publishable: true}
+  - {fact: "디즈니는 로버트 다우니 주니어가 토니 스타크가 아닌 빅터 반 둠으로 돌아온다고 공식 발표했다.", source_type: 공식출처, source_url: "https://thewaltdisneycompany.com/news/marvel-studios-avengers-doomsday-cast/", verified_on: "2026-08-23", publishable: true}
+  - {fact: "2026 코믹콘 공식 발표에서 크리스 에번스와 헤일리 앧웰의 합류가 확인됐고, 앧웰은 페기 카터로 돌아온다.", source_type: 공식출처, source_url: "https://thewaltdisneycompany.com/news/marvel-studios-comic-con-2026/", verified_on: "2026-08-23", publishable: true}
+  - {fact: "디즈니는 서로 다른 세 개의 우주에서 온 영웅들이 치명적인 충돌 경로에 올라 존재론적 위협에 맞선다고 공식 설명했다.", source_type: 공식출처, source_url: "https://thewaltdisneycompany.com/news/marvel-studios-comic-con-2026/", verified_on: "2026-08-23", publishable: true}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-avengers-doomsday/disney-2287652727.jpg", kind: 실제, role: "2026 코믹콘 둠스데이 단체 사진", visible_fact: "스물 명 가량의 배우와 제작진이 가면을 든 관객을 배경으로 무대 위에 모여 있다", caption: "2026 산디에고 코믹콘 마블 스튜디오 발표 현장. 사진: The Walt Disney Company", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-avengers-doomsday/disney-2287653968.jpg", kind: 실제, role: "로버트 다우니 주니어 현장", visible_fact: "로버트 다우니 주니어가 앤서니 매키·페드로 파스칼과 함께 무대에 서 있다", caption: "닥터 둠으로 돌아오는 로버트 다우니 주니어. 사진: The Walt Disney Company", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-avengers-doomsday/disney-2287654693.jpg", kind: 실제, role: "세대간 출연진 설명", visible_fact: "무대 위에 다양한 세대의 배우 7명이 나란히 서 있다", caption: "어벤져스·판타스틱 4·엑스맨 계열 배우들이 한자리에 모인 공식 현장. 사진: The Walt Disney Company", mask: []}
+related_posts: []
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "예고편이나 공식 발표에 없는 줄거리를 코믹스 설정으로 추정하지 않는다."
+  - "유출 영상·불법 촬영 사진·팬 트레일러를 공식 자료로 사용하지 않는다."
+  - "국내 개봉일이 따로 확정됐다고 단정하지 않고 글로벌 극장 개봉 기준으로 쓴다."
+output_folder: "blog/assets/2026-08-23-avengers-doomsday"
+image_fallback: {real_photo_attempted: true, failure_reason: null, ai_allowed: true, disclosure_required: true}
+learning_context: {similar_post_ids: [], historical_performance_score: 5, cooldown_checked_on: "2026-08-23"}

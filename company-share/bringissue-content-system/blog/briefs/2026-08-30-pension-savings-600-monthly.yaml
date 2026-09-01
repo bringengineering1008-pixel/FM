@@ -1,0 +1,33 @@
+request_mode: 키워드발굴
+distribution_goal: 검색
+content_role: {primary: 유입, secondary: 검토}
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "연말정산 전 연금저축 납입액을 월별로 나누려는 반복 검색"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "40대 이상 독자의 노후자금 납입 계획"
+  field_evidence: ["국세청 연금계좌 세액공제 표"]
+topic: "연금저축 600만 원 월 납입 계획"
+primary_keyword: "연금저축 600만 원 월납입"
+secondary_keywords: ["연금저축 월 50만 원", "연금저축 세액공제"]
+source_date: "2026-08-27"
+target_reader: "연금저축 600만 원을 무리 없이 나눠 넣고 싶은 40~60대"
+reader_scene: "연말에 목돈을 넣지 않도록 남은 달의 월 납입액을 계산하는 상황"
+one_objection: "600만 원을 반드시 채워야 한다고 생각한다"
+promised_answer: "시작 시점별 월 납입액과 무리하지 않는 납입 순서를 알려준다"
+one_cta: 저장
+verified_facts:
+  - {fact: "연금저축 세액공제 대상 한도는 연 600만 원이며 퇴직연금 포함 합계는 900만 원이다.", source_type: 공식출처, source_url: "https://i.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875&mi=6596", verified_on: "2026-08-27", publishable: true}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-pension-savings-irp-tax-credit/02-nts-pension-tax-credit-table.png", kind: 실제, role: "공제 한도 확인", visible_fact: "연금저축 600만 원·합계 900만 원 표", caption: "국세청 연금계좌 세액공제 표", mask: []}
+related_posts: ["연금저축 세액공제액과 실제 환급액이 다른 이유"]
+public_location_scope: 대한민국
+cost_time_publishable: false
+constraints: ["개인별 납입액을 권유하지 않는다", "상담 배너를 넣지 않는다"]
+output_folder: "blog/assets/2026-08-26-pension-savings-irp-tax-credit"
+image_fallback: {real_photo_attempted: true, failure_reason: "공식 표가 적합", ai_allowed: false, disclosure_required: false}
+learning_context: {similar_post_ids: [], historical_performance_score: 5, cooldown_checked_on: "2026-08-27"}

@@ -1,0 +1,35 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role: {primary: 유입, secondary: 검토}
+post_type: 검색정보
+content_engine: traffic
+engine_evidence: {realtime_signal: "2026년 추석 선물세트 사전예약 시작", purchase_problem: "최대 할인 조건과 배송 마감 비교", approved_affiliate_url: null, ad_disclosure: null, business_relevance: "명절 구매 검색 유입 후 승인 제휴 후속", field_evidence: []}
+topic: "2026 추석 선물세트 사전예약과 예산별 선택 기준"
+primary_keyword: "2026 추석 선물세트"
+secondary_keywords: ["추석 선물세트 사전예약", "추석 선물 추천", "추석 택배 마감", "추석 선물 배송"]
+source_date: "2026-08-23"
+target_reader: "부모·직장·거래처 선물을 준비하는 30~50대"
+reader_scene: "최대 할인 문구만 보고 여러 세트를 결제하거나 명절 직전에 주문해 배송을 놓칠 수 있는 상황"
+one_objection: "최대 50% 할인이라면 대부분 상품이 같은 할인율이라고 생각한다"
+promised_answer: "사전예약 혜택 조건·받는 사람별 품목·배송 증빙을 한 번에 정리한다"
+one_cta: 저장
+verified_facts:
+  - {fact: "이마트 트레이더스 공식 공지 중 한 매장은 2026년 8월 6일부터 9월 4일까지 추석 선물세트 사전예약을 안내했다.", source_type: 공식출처, source_url: "https://eapp.emart.com/news/notice_view.do?seq=70709", verified_on: "2026-08-23", publishable: true}
+  - {fact: "해당 공지의 최대 50% 할인·상품권 증정·무이자 혜택은 행사상품·행사카드·실제 결제금액 등 조건이 붙는다.", source_type: 공식출처, source_url: "https://eapp.emart.com/news/notice_view.do?seq=70709", verified_on: "2026-08-23", publishable: true}
+  - {fact: "CJ더마켓 공식 2026 추석 행사 안내는 명절 전 배송 주문마감을 9월 21일 오전 10시 결제·입금 완료분으로 안내했으며 도서산간·파업 상황에 따라 변동될 수 있다고 밝혔다.", source_type: 공식출처, source_url: "https://www.cjthemarket.com/the/event/giftset/chuseok", verified_on: "2026-08-23", publishable: true}
+  - {fact: "한국소비자원은 명절 택배 피해에 대비해 운송장·구매영수증·발송 전후 사진이나 동영상 등 증빙자료를 보관하라고 안내한다.", source_type: 공식출처, source_url: "https://www.kca.go.kr/kca/sub.do?menukey=5293&mode=view&no=1003728392&page=17", verified_on: "2026-08-23", publishable: true}
+  - {fact: "농림축산식품부는 2026년 9월 추석 선물·제수용 농식품 부정유통을 집중 점검할 계획이라고 밝혔다.", source_type: 공식출처, source_url: "https://www.mafra.go.kr/bbs/home/792/578682/artclView.do", verified_on: "2026-08-23", publishable: true}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-chuseok-gift-guide/kca-delivery-warning.png", kind: 실제, role: "명절 택배 피해 예방", visible_fact: "한국소비자원 추석 택배 소비자피해 주의 화면", caption: "한국소비자원이 안내한 추석 택배 피해 예방 정보", mask: []}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+related_posts: []
+public_location_scope: "대한민국"
+cost_time_publishable: true
+constraints:
+  - "최대 할인율을 모든 상품에 적용되는 것처럼 쓰지 않는다."
+  - "특정 상품의 품질·가격 우위를 검증 없이 단정하지 않는다."
+  - "승인된 제휴 링크가 생기기 전에는 구매 링크를 넣지 않는다."
+  - "emart-official-preorder.png는 다른 행사 팝업 화면이므로 사용하지 않는다."
+output_folder: "blog/assets/2026-08-23-chuseok-gift-guide"
+image_fallback: {real_photo_attempted: true, failure_reason: "판매상품 사진은 제휴·저작권 확인 전 복제하지 않음", ai_allowed: true, disclosure_required: true}
+learning_context: {similar_post_ids: [], historical_performance_score: 5, cooldown_checked_on: "2026-08-23"}

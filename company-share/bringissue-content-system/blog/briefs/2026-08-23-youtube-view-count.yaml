@@ -1,0 +1,79 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role:
+  primary: 유입
+  secondary: 검토
+post_type: 트렌드
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "YouTube가 2026-08-24부터 모든 형식의 공개 조회수를 첫 프레임 재생 시점부터 집계한다고 공식 발표"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "브링이슈 대중 디지털 생활정보 콘텐츠"
+  field_evidence: []
+topic: "2026년 8월 24일 유튜브 공개 조회수 집계 방식 변경"
+primary_keyword: "유튜브 조회수 변경"
+secondary_keywords:
+  - "유튜브 조회수 집계"
+  - "유튜브 8월 24일"
+  - "유튜브 유효 조회수"
+  - "유튜브 조회수 수익"
+source_date: "2026-08-17"
+target_reader: "유튜브를 자주 보거나 채널·홍보 업무를 하는 30~50대 이용자"
+reader_scene: "8월 24일 이후 익숙한 영상의 조회수가 평소보다 빨리 오르는 것을 보고 이유와 수익 변화를 궁금해하는 상황"
+one_objection: "공개 조회수가 늘면 크리에이터 수익도 같은 비율로 늘어난다고 생각한다"
+promised_answer: "무엇이 바뀌고 무엇은 그대로인지, 앞으로 조회수 숫자를 어떻게 읽어야 하는지 구분해준다"
+one_cta: 저장
+verified_facts:
+  - fact: "2026년 8월 24일부터 Shorts, 긴 형식 동영상, 라이브 스트림을 포함한 모든 형식에서 첫 프레임이 재생되는 순간 공개 조회수가 집계된다."
+    source_type: 공식출처
+    source_url: "https://support.google.com/youtube/thread/459294142/youtube-%EC%A0%84%EB%B0%98%EC%9D%98-%EA%B3%B5%EA%B0%9C-%EC%A1%B0%ED%9A%8C%EC%88%98-%EC%A7%91%EA%B3%84-%EB%B0%A9%EC%8B%9D-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8?hl=ko"
+    verified_on: "2026-08-23"
+    publishable: true
+  - fact: "새 공개 조회수 측정항목은 YouTube에서 조회수가 표시되는 모든 위치에 적용된다."
+    source_type: 공식출처
+    source_url: "https://support.google.com/youtube/thread/459294142/youtube-%EC%A0%84%EB%B0%98%EC%9D%98-%EA%B3%B5%EA%B0%9C-%EC%A1%B0%ED%9A%8C%EC%88%98-%EC%A7%91%EA%B3%84-%EB%B0%A9%EC%8B%9D-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8?hl=ko"
+    verified_on: "2026-08-23"
+    publishable: true
+  - fact: "기존 기준에 가까운 유효 조회수는 YouTube 분석 고급 모드에서 계속 확인할 수 있다."
+    source_type: 공식출처
+    source_url: "https://support.google.com/youtube/thread/459294142/youtube-%EC%A0%84%EB%B0%98%EC%9D%98-%EA%B3%B5%EA%B0%9C-%EC%A1%B0%ED%9A%8C%EC%88%98-%EC%A7%91%EA%B3%84-%EB%B0%A9%EC%8B%9D-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8?hl=ko"
+    verified_on: "2026-08-23"
+    publishable: true
+  - fact: "이번 변경은 YouTube 파트너 프로그램 수익이나 자격 요건에 영향을 주지 않는다."
+    source_type: 공식출처
+    source_url: "https://support.google.com/youtube/answer/12220281?hl=ko"
+    verified_on: "2026-08-23"
+    publishable: true
+photos:
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-youtube-view-count/youtube-official-announcement.png"
+    kind: 실제
+    role: "공식 변경 공지 증거"
+    visible_fact: "TeamYouTube 한국어 공식 공지 제목과 시행일, 주요 변경 내용"
+    caption: "YouTube 공식 커뮤니티에 게시된 공개 조회수 집계 방식 변경 공지"
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-youtube-view-count/youtube-help-metrics.png"
+    kind: 실제
+    role: "공식 고객센터의 수익·자격 불변 설명"
+    visible_fact: "YouTube 고객센터의 콘텐츠 실적 안내 화면"
+    caption: "수익과 YPP 자격 기준은 그대로라고 안내한 YouTube 고객센터"
+    mask: []
+related_posts: []
+public_location_scope: 전국
+cost_time_publishable: true
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+constraints:
+  - "공개 조회수 증가를 수익 증가나 추천 증가로 단정하지 않는다."
+  - "공식 공지에 없는 알고리즘 영향을 추측하지 않는다."
+  - "검색·홈피드 노출을 보장하지 않는다."
+output_folder: "blog/assets/2026-08-23-youtube-view-count"
+image_fallback:
+  real_photo_attempted: true
+  failure_reason: null
+  ai_allowed: true
+  disclosure_required: true
+learning_context:
+  similar_post_ids: []
+  historical_performance_score: 5
+  cooldown_checked_on: "2026-08-23"

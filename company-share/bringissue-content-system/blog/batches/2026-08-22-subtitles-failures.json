@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "avengers-doomsday-doctor-doom",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-23-avengers-doomsday-doctor-doom\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=Bk6DeEedYGs']' returned non-zero exit status 1."
+  },
+  {
+    "slug": "kbs-flip-phone-return",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-23-kbs-flip-phone-return\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=MTcsx6ddFlE']' returned non-zero exit status 1."
+  },
+  {
+    "slug": "made-in-korea-season-two-trailer",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-23-made-in-korea-season-two-trailer\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=zYu_T7bCc08']' returned non-zero exit status 1."
+  },
+  {
+    "slug": "yooksikman-sausage-review",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-23-yooksikman-sausage-review\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=tveYpD3irHQ']' returned non-zero exit status 1."
+  },
+  {
+    "slug": "yoora-last-first-week-school",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-23-yoora-last-first-week-school\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=pDXEYXQyEDA']' returned non-zero exit status 1."
+  },
+  {
+    "slug": "uppity-spending-review",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-23-uppity-spending-review\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=HdgDBcpdutM']' returned non-zero exit status 1."
+  },
+  {
+    "slug": "best-value-earbuds-2026",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-23-best-value-earbuds-2026\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=w99XigKSEBo']' returned non-zero exit status 1."
+  },
+  {
+    "slug": "lee-kangin-la-liga-first-round",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-23-lee-kangin-la-liga-first-round\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=ZVFXpGpCH-o']' returned non-zero exit status 1."
+  },
+  {
+    "slug": "moneygraphy-2030-money-guide",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-24-moneygraphy-2030-money-guide\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=79u_hSgFUys']' returned non-zero exit status 1."
+  },
+  {
+    "slug": "lego-august-top-eight",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-24-lego-august-top-eight\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=gasXU7_Rmn8']' returned non-zero exit status 1."
+  },
+  {
+    "slug": "michelle-choi-wedding-countdown",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-24-michelle-choi-wedding-countdown\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=U9X9DJMIVPw']' returned non-zero exit status 1."
+  },
+  {
+    "slug": "leesangho-abandons-manchester-united",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-24-leesangho-abandons-manchester-united\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=JH2LR-_iOA4']' returned non-zero exit status 1."
+  },
+  {
+    "slug": "official-dopa-nasus",
+    "error": "Command '['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', '-m', 'yt_dlp', '--no-update', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'ko.*,ko,en.*', '--sub-format', 'vtt', '-o', 'C:\\\\Users\\\\user\\\\.codex\\\\worktrees\\\\7129\\\\마케팅\\\\blog-assets\\\\2026-08-24-official-dopa-nasus\\\\source.%(ext)s', 'https://www.youtube.com/watch?v=Ku0VPRVeeP8']' returned non-zero exit status 1."
+  }
+]

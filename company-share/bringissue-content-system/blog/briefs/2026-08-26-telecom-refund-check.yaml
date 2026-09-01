@@ -1,0 +1,81 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role:
+  primary: 유입
+  secondary: 검토
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "휴대전화 해지·번호이동 뒤 과납요금과 보증금을 한 번에 찾으려는 반복 검색"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "40대 이상 독자가 해지한 통신서비스의 미환급금을 공식 경로에서 확인하고 신청하는 생활 정보"
+  field_evidence:
+    - "스마트초이스 공식 통신 미환급액 조회 화면과 FAQ"
+topic: "휴대전화·인터넷 해지 후 통신 미환급액 조회와 신청 방법"
+primary_keyword: "통신 미환급액 조회"
+secondary_keywords:
+  - "스마트초이스 미환급액"
+  - "통신비 환급"
+  - "번호이동 미환급액"
+  - "휴대폰 해지 환급"
+source_date: "2026-08-26"
+target_reader: "휴대전화 번호이동이나 인터넷 해지 후 과납요금·보증금이 남았는지 확인하려는 40대 이상 독자"
+reader_scene: "오래전에 바꾼 통신사에서 돌려받지 못한 돈이 있을 수 있다는 이야기를 듣고 안전한 조회 방법을 찾는 상황"
+one_objection: "해지할 때 모두 정산했으니 별도로 남은 돈은 없을 것이라고 생각한다"
+promised_answer: "미환급액이 생기는 이유, 공식 조회 대상 통신사, 조회 가능 시간, 로그인과 본인계좌 신청 기준을 알려준다"
+one_cta: 저장
+verified_facts:
+  - fact: "스마트초이스는 한국통신사업자연합회가 KT, SK텔레콤, LG유플러스, SK브로드밴드의 위탁을 받아 운영한다고 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.smartchoice.or.kr/smc/service/refund.do"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "미환급액 조회는 회원가입 없이 이름과 주민등록번호로 이용할 수 있으나 환급 신청에는 로그인이 필요하다."
+    source_type: 공식출처
+    source_url: "https://www.smartchoice.or.kr/smc/service/refund.do"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "조회 이용 가능 시간은 오전 9시부터 오후 8시이며 공휴일은 이용할 수 없다고 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.smartchoice.or.kr/smc/service/refund.do"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "환급 신청 이후 통신사별로 2~7일 이내 지급되며, 신청인 본인의 실명계좌만 가능하다고 FAQ에 안내한다."
+    source_type: 공식출처
+    source_url: "https://www.smartchoice.or.kr/smc/support/faq.do?tab=C"
+    verified_on: "2026-08-26"
+    publishable: true
+photos:
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-telecom-refund/01-smartchoice-refund-official.png"
+    kind: 실제
+    role: "스마트초이스 공식 조회 화면, 운영기관, 대상 통신사와 조회 시간을 보여주는 캡처"
+    visible_fact: "통신 미환급액 조회 화면과 오전 9시~오후 8시 이용 안내, KT·SKT·LGU+·SK브로드밴드 선택"
+    caption: "스마트초이스 공식 통신 미환급액 조회 화면입니다."
+    mask: []
+work_scope:
+  bringcare_direct: []
+  partner_vendor: []
+  owner_decision: []
+  unverified: []
+related_posts:
+  - "휴면예금 조회 글과 내부 연결 예정"
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "조회 결과와 환급액을 보장하지 않는다."
+  - "주민등록번호와 계좌정보가 포함된 개인 화면을 캡처하지 않는다."
+  - "전화·팩스로 개인정보를 요구하지 않는다는 공식 경고를 포함한다."
+  - "상담 배너와 제휴 링크를 넣지 않는다."
+output_folder: "blog/assets/2026-08-26-telecom-refund"
+image_fallback:
+  real_photo_attempted: true
+  failure_reason: "환급 신청 정보는 생성 이미지보다 스마트초이스 실제 조회 화면이 근거로 적합하다."
+  ai_allowed: false
+  disclosure_required: false
+learning_context:
+  similar_post_ids: []
+  historical_performance_score: 5
+  cooldown_checked_on: "2026-08-26"
+

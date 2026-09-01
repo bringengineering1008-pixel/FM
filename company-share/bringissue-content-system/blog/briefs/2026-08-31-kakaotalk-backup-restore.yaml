@@ -1,0 +1,30 @@
+request_mode: 키워드발굴
+distribution_goal: 검색
+content_role: {primary: 유입, secondary: 검토}
+post_type: 검색정보
+content_engine: traffic
+engine_evidence: {realtime_signal: "휴대폰 교체 때 카카오톡 백업·복구 반복 검색", purchase_problem: null, approved_affiliate_url: null, ad_disclosure: null, business_relevance: "40대 이상 디지털 문제 해결", field_evidence: ["카카오 고객센터 최신 백업 안내 실제 화면"]}
+topic: "카카오톡 대화 백업과 복구 실패 원인"
+primary_keyword: "카카오톡 백업 복구"
+secondary_keywords: ["카톡 대화 백업", "카카오톡 복원 14일"]
+source_date: "2026-08-27"
+target_reader: "휴대폰 교체 전 카카오톡 대화를 보존하려는 사용자"
+reader_scene: "기존 휴대폰을 초기화하기 전에 백업과 복원 조건을 확인하는 상황"
+one_objection: "같은 계정으로 로그인하면 대화가 자동 복원된다고 생각한다"
+promised_answer: "공식 메뉴 경로·14일 기한·제외 항목·복원 순서를 알려준다"
+one_cta: 저장
+verified_facts:
+  - {fact: "무료 백업 경로는 더보기·설정·백업·대화 임시 백업 순서다.", source_type: 공식출처, source_url: "https://cs.kakao.com/helps_html/1073209313", verified_on: "2026-08-27", publishable: true}
+  - {fact: "무료 백업 복원 기한은 14일이며 텍스트 대화만 대상이다.", source_type: 공식출처, source_url: "https://cs.kakao.com/helps_html/1073209313", verified_on: "2026-08-27", publishable: true}
+  - {fact: "사진·동영상·첨부파일·4,000자 초과 메시지·비밀채팅·오픈채팅은 무료 백업에서 제외된다.", source_type: 공식출처, source_url: "https://cs.kakao.com/helps_html/1073209313", verified_on: "2026-08-27", publishable: true}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-31-kakaotalk-backup-restore/01-kakao-backup-official.jpg", kind: 실제, role: "백업·복원 순서", visible_fact: "카카오 무료 백업과 복원 절차", caption: "카카오 고객센터 백업·복원 공식 안내", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-31-kakaotalk-backup-restore/02-kakao-backup-cautions-full.jpg", kind: 실제, role: "주의사항", visible_fact: "14일 기한과 제외 항목", caption: "카카오 고객센터 무료 백업 주의사항", mask: []}
+related_posts: ["휴대폰 교체 전 데이터 확인 글"]
+public_location_scope: 대한민국
+cost_time_publishable: false
+constraints: ["버전별 메뉴 변화 가능성을 안내한다", "상담 배너를 넣지 않는다"]
+output_folder: "blog/assets/2026-08-31-kakaotalk-backup-restore"
+image_fallback: {real_photo_attempted: true, failure_reason: "공식 화면 2장 확보", ai_allowed: false, disclosure_required: false}
+learning_context: {similar_post_ids: [], historical_performance_score: 5, cooldown_checked_on: "2026-08-27"}

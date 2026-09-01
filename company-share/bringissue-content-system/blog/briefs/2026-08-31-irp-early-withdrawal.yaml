@@ -1,0 +1,27 @@
+request_mode: 키워드발굴
+distribution_goal: 검색
+content_role: {primary: 유입, secondary: 검토}
+post_type: 검색정보
+content_engine: traffic
+engine_evidence: {realtime_signal: "IRP 중도인출 사유와 세금 반복 검색", purchase_problem: null, approved_affiliate_url: null, ad_disclosure: null, business_relevance: "노후자금 인출 판단", field_evidence: ["고용노동부 공식 퇴직연금 안내"]}
+topic: "IRP 중도인출 사유와 확인 순서"
+primary_keyword: "IRP 중도인출"
+secondary_keywords: ["퇴직연금 중도인출", "IRP 중도인출 세금"]
+source_date: "2026-08-27"
+target_reader: "IRP 적립금이 필요하지만 인출 조건을 모르는 가입자"
+reader_scene: "주택·보증금·의료비 사유로 중도인출 가능성을 확인하는 상황"
+one_objection: "IRP 잔액은 필요할 때 자유롭게 꺼낼 수 있다고 생각한다"
+promised_answer: "법정 사유·증빙·예상세액 확인 순서를 알려준다"
+one_cta: 저장
+verified_facts:
+  - {fact: "개인형퇴직연금제도의 중도인출은 시행령 제18조가 정한 사유에 해당해야 한다.", source_type: 공식출처, source_url: "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lspttninfSeq=71031", verified_on: "2026-08-27", publishable: true}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-31-irp-early-withdrawal/02-law-irp-article18.jpg", kind: 실제, role: "법정 사유 확인", visible_fact: "시행령 제18조의 개인형퇴직연금 중도인출 근거와 사유", caption: "국가법령정보센터의 현행 개인형 IRP 중도인출 조항", mask: []}
+related_posts: ["연금저축 중도해지 세금"]
+public_location_scope: 대한민국
+cost_time_publishable: false
+constraints: ["개별 인출 가능성을 단정하지 않는다", "상담 배너를 넣지 않는다"]
+output_folder: "blog/assets/2026-08-31-irp-early-withdrawal"
+image_fallback: {real_photo_attempted: true, failure_reason: "공식 화면이 적합", ai_allowed: false, disclosure_required: false}
+learning_context: {similar_post_ids: [], historical_performance_score: 5, cooldown_checked_on: "2026-08-27"}

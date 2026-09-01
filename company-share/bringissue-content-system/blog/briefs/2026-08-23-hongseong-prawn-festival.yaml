@@ -1,0 +1,79 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role:
+  primary: 유입
+  secondary: 검토
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "제31회 홍성남당항 대하축제가 2026-09-04 개막"
+  purchase_problem: "현장 가격과 방문 시기, 주변 동선을 모르면 식비와 시간을 낭비할 수 있음"
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "9월 제철여행 유입 후 숙박·여행준비 후속글 후보"
+  field_evidence: []
+topic: "2026 홍성남당항 대하축제 일정·가격·방문 준비"
+primary_keyword: "2026 홍성남당항 대하축제"
+secondary_keywords:
+  - "남당항 대하축제 가격"
+  - "홍성 대하축제 일정"
+  - "남당항 대하 1kg 가격"
+  - "홍성 가을 여행"
+source_date: "2026-08-20"
+target_reader: "9월 가족 또는 부부 가을 나들이를 준비하는 30~50대"
+reader_scene: "대하철에 남당항을 찾고 싶지만 축제 날짜와 통일 가격, 공연 시기, 주변 동선을 모르는 상황"
+one_objection: "축제 기간이면 아무 날이나 가도 프로그램과 가격이 같다고 생각한다"
+promised_answer: "축제 기간·대하 통일 가격·공연이 몰린 날짜·함께 둘러볼 장소를 한 번에 정리한다"
+one_cta: 저장
+verified_facts:
+  - fact: "제31회 홍성남당항 대하축제는 2026년 9월 4일부터 11월 8일까지 남당항 일원에서 열린다."
+    source_type: 공식출처
+    source_url: "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pRo=3&pSeq=12604"
+    verified_on: "2026-08-23"
+    publishable: true
+  - fact: "9월 4일부터 6일까지 개막공연, 9월 25일부터 26일까지 추석공연이 예정돼 있다."
+    source_type: 공식출처
+    source_url: "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pRo=3&pSeq=12604"
+    verified_on: "2026-08-23"
+    publishable: true
+  - fact: "축제 입장은 무료이고 먹거리와 일부 체험은 유료다."
+    source_type: 공식출처
+    source_url: "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pRo=3&pSeq=12604"
+    verified_on: "2026-08-23"
+    publishable: true
+  - fact: "홍성군 발표를 인용한 복수 지역 보도에 따르면 축제 기간 대하는 1kg 기준 포장 4만5000원, 식당 6만원으로 통일 운영될 계획이다."
+    source_type: 제공기록
+    source_url: "https://m.joongdo.co.kr/view.php?key=20260820010006155"
+    verified_on: "2026-08-23"
+    publishable: true
+photos:
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-hongseong-prawn-festival/mcst-official-festival.png"
+    kind: 실제
+    role: "공식 일정과 장소 증거"
+    visible_fact: "문화체육관광부 지역축제 페이지의 일정·장소·요금"
+    caption: "문화체육관광부가 안내한 2026 홍성남당항 대하축제 정보"
+    mask: []
+  - path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-hongseong-prawn-festival/kto-grilled-prawn.jpg"
+    kind: 실제
+    role: "대하 소금구이 이해 이미지"
+    visible_fact: "팬에 구운 대하가 담긴 실제 사진"
+    caption: "대하 소금구이. 사진: 한국관광공사 포토코리아, 공공누리 제1유형"
+    mask: []
+related_posts: []
+public_location_scope: "충청남도 홍성군"
+cost_time_publishable: true
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+constraints:
+  - "현장 체험 시간·주차·셔틀은 공식 세부 공지가 없으므로 확정하지 않는다."
+  - "가격은 현장 사정에 따라 달라질 수 있어 방문 직전 재확인 문구를 둔다."
+  - "승인된 숙박·여행 제휴링크가 생기기 전에는 제휴 링크를 삽입하지 않는다."
+output_folder: "blog/assets/2026-08-23-hongseong-prawn-festival"
+image_fallback:
+  real_photo_attempted: true
+  failure_reason: null
+  ai_allowed: true
+  disclosure_required: true
+learning_context:
+  similar_post_ids: []
+  historical_performance_score: 5
+  cooldown_checked_on: "2026-08-23"

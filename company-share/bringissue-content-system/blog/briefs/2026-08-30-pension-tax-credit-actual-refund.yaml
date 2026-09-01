@@ -1,0 +1,27 @@
+request_mode: 키워드발굴
+distribution_goal: 검색
+content_role: {primary: 유입, secondary: 검토}
+post_type: 검색정보
+content_engine: traffic
+engine_evidence: {realtime_signal: "연금저축 환급액 계산 반복 검색", purchase_problem: null, approved_affiliate_url: null, ad_disclosure: null, business_relevance: "40대 이상 연말정산 판단", field_evidence: ["국세청 연금계좌 표"]}
+topic: "연금저축 세액공제액과 실제 환급액 차이"
+primary_keyword: "연금저축 실제 환급액"
+secondary_keywords: ["연금저축 세액공제", "결정세액"]
+source_date: "2026-08-27"
+target_reader: "연금저축 납입 뒤 예상 환급액을 계산하는 근로자"
+reader_scene: "계산한 공제액만큼 환급되지 않는 이유를 확인하는 상황"
+one_objection: "계산상 세액공제액이 무조건 현금으로 환급된다고 생각한다"
+promised_answer: "공제액·결정세액·기납부세액의 관계를 설명한다"
+one_cta: 저장
+verified_facts:
+  - {fact: "국세청 표의 연금계좌 국세 공제율은 소득 구간에 따라 15% 또는 12%이며, 지방소득세를 함께 반영해 안내되는 비율은 16.5% 또는 13.2%이다.", source_type: 공식출처, source_url: "https://www.fsc.go.kr/no010101/87144", verified_on: "2026-08-27", publishable: true}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-26-pension-savings-irp-tax-credit/02-nts-pension-tax-credit-table.png", kind: 실제, role: "공제율 확인", visible_fact: "15%·12% 공제율", caption: "국세청 연금계좌 공제율 표", mask: []}
+related_posts: ["연금저축 600만 원 월 납입 계획"]
+public_location_scope: 대한민국
+cost_time_publishable: false
+constraints: ["환급액을 보장하지 않는다", "상담 배너를 넣지 않는다"]
+output_folder: "blog/assets/2026-08-26-pension-savings-irp-tax-credit"
+image_fallback: {real_photo_attempted: true, failure_reason: "공식 표가 적합", ai_allowed: false, disclosure_required: false}
+learning_context: {similar_post_ids: [], historical_performance_score: 5, cooldown_checked_on: "2026-08-27"}

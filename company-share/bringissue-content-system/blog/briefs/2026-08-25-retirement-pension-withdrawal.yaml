@@ -1,0 +1,125 @@
+request_mode: 현장사진작성
+distribution_goal: 혼합
+content_role:
+  primary: 유입
+  secondary: 신뢰
+post_type: 검색정보
+content_engine: traffic
+topic: "퇴직연금 수령방법: 일시금과 연금의 차이"
+primary_keyword: 퇴직연금 수령방법
+secondary_keywords:
+  - 퇴직연금 일시금
+  - 퇴직연금 연금수령
+  - IRP 수령방법
+source_date: "2026-08-26"
+target_reader: "퇴직을 앞두고 IRP에서 일시금과 연금 중 하나를 골라야 하는 40~60대"
+reader_scene: "금융회사에서 수령 방법을 선택하라는 안내를 받았지만 세금과 생활비 차이를 한 번에 이해하기 어려운 상황"
+one_objection: "연금이 세금에 유리하다는 말만 듣고 무조건 선택해도 되는가"
+promised_answer: "법정 수급 요건, 세금 흐름, 생활비 계획을 기준으로 두 방식을 고르는 순서"
+one_cta: 저장
+verified_facts:
+  - fact: "퇴직연금은 55세 이후 연금 또는 일시금으로 수령할 수 있는 제도다."
+    source_type: 공식출처
+    source_url: "https://www.moel.go.kr/retirementpay.do"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "개인형퇴직연금의 연금은 55세 이상 가입자에게 지급하며 지급기간은 5년 이상이다."
+    source_type: 공식출처
+    source_url: "https://www.law.go.kr/LSW/lsInfoP.do?lsId=009883"
+    verified_on: "2026-08-26"
+    publishable: true
+  - fact: "이연퇴직소득을 연금으로 받으면 국세청 기준상 연금외수령 세율의 일정 비율이 적용된다."
+    source_type: 공식출처
+    source_url: "https://nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7888&mi=6608"
+    verified_on: "2026-08-26"
+    publishable: true
+work_scope:
+  bringcare_direct: []
+  partner_vendor: []
+  owner_decision: []
+  unverified:
+    - "개인별 실제 세액과 금융회사별 수수료"
+photos:
+  - path: "assets/2026-08-25-retirement-pension-withdrawal/capture-01-moel-slide.png"
+    kind: 실제
+    role: "퇴직연금 정의"
+    visible_fact: "고용노동부 기관명, 퇴직연금 정의와 55세 이후 수령"
+    caption: "고용노동부가 설명하는 퇴직연금의 기본 구조입니다."
+    mask: []
+  - path: "assets/2026-08-25-retirement-pension-withdrawal/capture-02-moel-slide.png"
+    kind: 실제
+    role: "DB형 설명"
+    visible_fact: "확정급여형의 급여와 운용 주체"
+    caption: "DB형은 받을 급여가 정해지고 회사가 적립금을 운용합니다."
+    mask: []
+  - path: "assets/2026-08-25-retirement-pension-withdrawal/capture-03-moel-slide.png"
+    kind: 실제
+    role: "DC형 설명"
+    visible_fact: "확정기여형의 부담금과 운용 주체"
+    caption: "DC형은 부담금이 정해지고 근로자가 직접 운용합니다."
+    mask: []
+  - path: "assets/2026-08-25-retirement-pension-withdrawal/capture-04-moel-slide.png"
+    kind: 실제
+    role: "IRP 설명"
+    visible_fact: "여러 직장의 퇴직급여를 IRP에 모으는 구조"
+    caption: "IRP는 직장을 옮겨도 퇴직급여를 한 계좌에 모아 관리합니다."
+    mask: []
+  - path: "assets/2026-08-25-retirement-pension-withdrawal/capture-05-moel-slide.png"
+    kind: 실제
+    role: "비교공시 안내"
+    visible_fact: "금융회사별 수익률·총비용과 상품정보 확인 안내"
+    caption: "금융회사를 비교할 때는 수익률과 총비용, 상품 구성을 함께 봅니다."
+    mask: []
+  - path: "assets/2026-08-25-retirement-pension-withdrawal/capture-06-law-article18-full.png"
+    kind: 실제
+    role: "법령 출처 확인"
+    visible_fact: "국가법령정보센터의 법령명, 시행일, 제18조 55세와 5년 이상 요건"
+    caption: "국가법령정보센터에서 시행 중인 법령과 제18조를 함께 확인했습니다."
+    mask: []
+  - path: "assets/2026-08-25-retirement-pension-withdrawal/capture-07-law-article18-detail.png"
+    kind: 실제
+    role: "수급 요건 확대"
+    visible_fact: "55세 이상과 연금 지급기간 5년 이상 요건"
+    caption: "연금과 일시금의 법정 수급 요건이 적힌 부분입니다."
+    mask: []
+  - path: "assets/2026-08-25-retirement-pension-withdrawal/capture-08-nts-page-title.png"
+    kind: 실제
+    role: "국세청 출처 확인"
+    visible_fact: "국세청 기관명과 연금소득 원천징수방법 페이지"
+    caption: "국세청 연금소득 원천징수 방법 안내 페이지입니다."
+    mask: []
+  - path: "assets/2026-08-25-retirement-pension-withdrawal/capture-09-nts-tax-summary.png"
+    kind: 실제
+    role: "연금계좌 과세 기준"
+    visible_fact: "사적연금과 연금계좌 원천징수세율 및 2026년 주석"
+    caption: "연금수령 시 확인해야 할 연령과 수령연차 기준입니다."
+    mask: []
+  - path: "assets/2026-08-25-retirement-pension-withdrawal/capture-10-nts-tax-table.png"
+    kind: 실제
+    role: "연금수령과 연금외수령 비교"
+    visible_fact: "소득 원천별 연금수령 표와 수령연차별 적용 주석"
+    caption: "계좌 안의 돈의 출처에 따라 과세 구분이 달라지는 표입니다."
+    mask: []
+  - path: "assets/2026-08-25-retirement-pension-withdrawal/comparison.png"
+    kind: 설명도
+    role: "일시금과 연금 비교"
+    visible_fact: "받는 방식, 법상 기준, 세금과 생활비 확인 항목"
+    caption: "두 방식은 세금뿐 아니라 목돈과 월 생활비 계획까지 함께 비교해야 합니다."
+    mask: []
+related_posts: []
+public_location_scope: 대한민국
+cost_time_publishable: false
+constraints:
+  - "개인 투자 추천 금지"
+  - "개인별 세액 단정 금지"
+  - "유튜브 캡처 사용 금지"
+output_folder: "blog/assets/2026-08-25-retirement-pension-withdrawal"
+image_fallback:
+  real_photo_attempted: true
+  failure_reason: "공식 법령 화면을 확보해 AI 대체가 필요하지 않음"
+  ai_allowed: false
+  disclosure_required: false
+learning_context:
+  similar_post_ids: []
+  historical_performance_score: NA
+  cooldown_checked_on: "2026-08-25"

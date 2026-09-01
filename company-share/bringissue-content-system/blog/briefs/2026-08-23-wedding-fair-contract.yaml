@@ -1,0 +1,35 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role: {primary: 유입, secondary: 검토}
+post_type: 검색정보
+content_engine: traffic
+engine_evidence: {realtime_signal: "가을 웨딩박람회 시즌의 당일 계약 관심", purchase_problem: "스드메 추가금·위약금 확인", approved_affiliate_url: null, ad_disclosure: null, business_relevance: "소비자보호 검색 유입", field_evidence: []}
+topic: "2026 가을 웨딩박람회 당일 계약 전 확인사항"
+primary_keyword: "웨딩박람회 계약"
+secondary_keywords: ["웨딩박람회 당일 계약", "스드메 추가금", "웨딩 계약 해지", "결혼준비대행 표준계약서"]
+source_date: "2026-08-23"
+target_reader: "가을 웨딩박람회 방문을 앞둔 20~40대 예비부부와 부모"
+reader_scene: "무료 초대권과 당일 혜택에 끌려 세부 가격·위약금 확인 전에 계약금을 결제할 수 있는 상황"
+one_objection: "박람회 당일 혜택은 지금 계약하지 않으면 모두 사라진다고 생각한다"
+promised_answer: "당일 계약 전에 기본서비스·추가금·해지 기준을 문서로 확인하는 순서를 알려준다"
+one_cta: 저장
+verified_facts:
+  - {fact: "공정거래위원회는 2025년 결혼준비대행업 표준계약서를 제정했다.", source_type: 공식출처, source_url: "https://wedding.seoulwomen.or.kr/app/uploads/2025/04/250403%EC%B0%B8%EA%B3%A0-%EA%B2%B0%ED%98%BC%EC%A4%80%EB%B9%84%EB%8C%80%ED%96%89%EC%97%85%EC%9B%A8%EB%94%A9%ED%94%8C%EB%9E%98%EB%84%88-%ED%91%9C%EC%A4%80%EA%B3%84%EC%95%BD%EC%84%9C-%EC%A0%9C%EC%A0%95.pdf", verified_on: "2026-08-23", publishable: true}
+  - {fact: "표준계약서는 기본서비스와 추가 옵션의 내용·세부 가격을 기재하도록 했다.", source_type: 공식출처, source_url: "https://wedding.seoulwomen.or.kr/app/uploads/2025/04/250403%EC%B0%B8%EA%B3%A0-%EA%B2%B0%ED%98%BC%EC%A4%80%EB%B9%84%EB%8C%80%ED%96%89%EC%97%85%EC%9B%A8%EB%94%A9%ED%94%8C%EB%9E%98%EB%84%88-%ED%91%9C%EC%A4%80%EA%B3%84%EC%95%BD%EC%84%9C-%EC%A0%9C%EC%A0%95.pdf", verified_on: "2026-08-23", publishable: true}
+  - {fact: "사진 원본·수정본 구입비, 드레스 피팅비, 메이크업 얼리스타트비 등이 추가 비용 사례로 제시됐다.", source_type: 공식출처, source_url: "https://wedding.seoulwomen.or.kr/app/uploads/2025/04/250403%EC%B0%B8%EA%B3%A0-%EA%B2%B0%ED%98%BC%EC%A4%80%EB%B9%84%EB%8C%80%ED%96%89%EC%97%85%EC%9B%A8%EB%94%A9%ED%94%8C%EB%9E%88%EB%84%88-%ED%91%9C%EC%A4%80%EA%B3%84%EC%95%BD%EC%84%9C-%EC%A0%9C%EC%A0%95.pdf", verified_on: "2026-08-23", publishable: true}
+  - {fact: "표준계약서는 계약 해제·해지 시 환급과 위약금 기준을 구체적으로 명시하도록 했다.", source_type: 공식출처, source_url: "https://wedding.seoulwomen.or.kr/app/uploads/2025/04/250403%EC%B0%B8%EA%B3%A0-%EA%B2%B0%ED%98%BC%EC%A4%80%EB%B9%84%EB%8C%80%ED%96%89%EC%97%85%EC%9B%A8%EB%94%A9%ED%94%8C%EB%9E%98%EB%84%88-%ED%91%9C%EC%A4%80%EA%B3%84%EC%95%BD%EC%84%9C-%EC%A0%9C%EC%A0%95.pdf", verified_on: "2026-08-23", publishable: true}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-wedding-fair-contract/ftc-cover.png", kind: 실제, role: "표준계약서 제정 근거", visible_fact: "공정위 보도참고자료 첫 페이지", caption: "공정거래위원회 결혼준비대행업 표준계약서 제정 자료", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-wedding-fair-contract/ftc-price-details.png", kind: 실제, role: "가격·추가금 근거", visible_fact: "서비스 내용과 가격 정보 제공 설명", caption: "기본서비스와 추가 옵션 세부가격을 확인하도록 한 공식 안내", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-wedding-fair-contract/ftc-cancellation.png", kind: 실제, role: "위약금 근거", visible_fact: "계약 해지·위약금 기준 구체화 설명", caption: "계약 해제·해지와 위약금 기준에 관한 공식 안내", mask: []}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+related_posts: []
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "특정 박람회나 업체를 추천·비방하지 않는다."
+  - "법률 상담처럼 단정하지 않고 계약서 확인과 소비자상담 안내에 집중한다."
+  - "승인된 제휴가 없으므로 무료초대권 신청 링크를 넣지 않는다."
+output_folder: "blog/assets/2026-08-23-wedding-fair-contract"
+image_fallback: {real_photo_attempted: true, failure_reason: "공식 문서 화면이 핵심 증거이므로 실제 인물 사진보다 우선", ai_allowed: true, disclosure_required: true}
+learning_context: {similar_post_ids: [], historical_performance_score: 5, cooldown_checked_on: "2026-08-23"}

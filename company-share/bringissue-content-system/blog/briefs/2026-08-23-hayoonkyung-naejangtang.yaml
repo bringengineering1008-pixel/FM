@@ -1,0 +1,44 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role: {primary: 유입, secondary: null}
+post_type: 트렌드
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "2026-08-22 방송된 MBC 전참시 412회와 2026-08-22 공개된 MBC예능 공식 유튜브 클립"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "순수 대중 유입형으로 사업 연결을 적용하지 않음"
+  field_evidence: []
+topic: "전참시 412회 하윤경의 내장탕 혼밥과 반전 일상"
+primary_keyword: "하윤경 내장탕"
+secondary_keywords: ["하윤경 전참시", "전참시 412회", "하윤경 혼밥", "하윤경 낮술"]
+source_date: "2026-08-23"
+target_reader: "전참시에 등장한 하윤경의 반전 일상과 원본 클립의 핵심을 찾는 독자"
+reader_scene: "짧은 예고나 기사 제목만 보고 왜 이 장면이 화제인지 궁금한 상황"
+one_objection: "내장탕과 낮술만 부각하면 인물의 매력을 단순 먹방으로만 소비할 수 있다"
+promised_answer: "단골집에서 보여준 자연스러운 관계와 혼밥 방식이 왜 반전 매력으로 이어졌는지 장면 순서로 풀어준다"
+one_cta: 저장
+verified_facts:
+  - {fact: "MBC 예능 유튜브는 2026년 8월 22일 하윤경이 단골 식당에서 내장탕을 먹는 4분 22초 클립을 공개했다.", source_type: 공식출처, source_url: "https://www.youtube.com/watch?v=PMMFUsdFblA", verified_on: "2026-08-23", publishable: true}
+  - {fact: "공개 클립에서 하윤경은 식당 직원의 바뀐 머리색을 알아보고 내장탕 하나를 주문했다.", source_type: 공식출처, source_url: "https://www.youtube.com/watch?v=PMMFUsdFblA", verified_on: "2026-08-23", publishable: true}
+  - {fact: "하윤경은 뜨거운 국물을 손선풍기로 식히며 먹고, 김치와 반찬에 대해 반가운 반응을 보였다.", source_type: 공식출처, source_url: "https://www.youtube.com/watch?v=PMMFUsdFblA", verified_on: "2026-08-23", publishable: true}
+  - {fact: "iMBC는 412회의 관전 포인트를 작품 속 단정한 이미지와 실제 일상의 간극으로 설명했다.", source_type: 공식출처, source_url: "https://enews.imbc.com/News/RetrieveNewsInfo/515316", verified_on: "2026-08-23", publishable: true}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-hayoonkyung-naejangtang/youtube-official-thumbnail.jpg", kind: 실제, role: "대표 이미지와 원본 클립 확인", visible_fact: "하윤경이 내장탕을 먹고 손선풍기를 든 장면이 편집된 MBC 공식 섬네일", caption: "MBC예능 공식 유튜브 클립 섬네일", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-hayoonkyung-naejangtang/mbc-official-still.jpg", kind: 실제, role: "다양한 일상 장면 설명", visible_fact: "반려묘 돌봄과 연기 연습, 내장탕 식사가 함께 배치된 iMBC 공식 스틸", caption: "고양이 집사·배우·단골집 손님이라는 세 모습을 보여주는 iMBC 공식 스틸", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-hayoonkyung-naejangtang/scene-01-greeting.jpg", kind: 실제, role: "단골 관계 설명", visible_fact: "하윤경이 직원의 달라진 머리색을 알아보고 웃으며 말하는 장면", caption: "직원의 달라진 머리색을 알아본 00:00:36 장면", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-hayoonkyung-naejangtang/scene-02-order.jpg", kind: 실제, role: "내장탕 주문 설명", visible_fact: "직원 앞에서 하윤경이 몸을 숙여 내장탕을 주문하는 장면", caption: "망설임 없이 내장탕을 주문한 00:00:56 장면", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-hayoonkyung-naejangtang/scene-03-handfan.jpg", kind: 실제, role: "손선풍기 습관 설명", visible_fact: "하윤경이 숟가락의 음식을 흰색 손선풍기로 식히는 장면", caption: "뜨거운 국물을 손선풍기로 식힌 00:02:45 장면", mask: []}
+related_posts: []
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "대사를 장문으로 복제하지 않고 장면을 요약·해설한다."
+  - "식당명·주소·가격을 추정하지 않는다."
+  - "인물의 음주를 미화하거나 음주를 권하지 않는다."
+  - "화면은 원본을 대체하지 않는 최소 수량만 출처와 함께 사용한다."
+output_folder: "blog/assets/2026-08-23-hayoonkyung-naejangtang"
+image_fallback: {real_photo_attempted: true, failure_reason: null, ai_allowed: true, disclosure_required: true}
+learning_context: {similar_post_ids: [], historical_performance_score: 5, cooldown_checked_on: "2026-08-23"}

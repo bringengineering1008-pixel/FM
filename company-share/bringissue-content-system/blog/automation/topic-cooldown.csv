@@ -1,0 +1,18 @@
+key_type,key_value,reason,started_on,eligible_on,source_post_ids,status
+keyword,보이스피싱 지급정지,40·40·20 파일럿 제작 확정,2026-08-26,2026-09-26,planned-voice-phishing-account-freeze,active
+keyword,건강검진 전 금식,40·40·20 파일럿 제작 확정,2026-08-26,2026-09-26,planned-health-checkup-fasting,active
+keyword,휴면예금 조회,40·40·20 파일럿 제작 확정,2026-08-26,2026-09-26,planned-dormant-deposit-claim,active
+keyword,통신 미환급액 조회,40·40·20 파일럿 제작 확정,2026-08-26,2026-09-26,planned-telecom-refund,active
+keyword,연금저축 IRP 세액공제,40·40·20 파일럿 제작 확정,2026-08-26,2026-09-26,planned-pension-tax-credit,active
+keyword,네이버페이 환불 기간,40·40·20 파일럿 제작 확정,2026-08-26,2026-09-26,planned-naverpay-refund-period,active
+keyword,SRT 환불,40·40·20 파일럿 제작 확정,2026-08-26,2026-09-26,planned-srt-refund,active
+keyword,여행자보험 휴대품손해,상품 약관 확보 후 작성하는 파일럿 후보,2026-08-26,2026-09-26,planned-travel-insurance-baggage,active
+keyword,2026 조기노령연금 소득기준,40·40·20 시의성 파일럿 제작 확정,2026-08-26,2026-09-10,planned-early-pension-income-2026,active
+keyword,2026 여권 재발급,40·40·20 시의성 파일럿 제작 확정,2026-08-26,2026-09-10,planned-passport-renewal-2026,active
+keyword,연금저축 600만 원 월납입,40대 이상 생활금융 검색형 제작 완료,2026-08-27,2026-09-27,planned-pension-savings-600-monthly,active
+keyword,연금저축 실제 환급액,40대 이상 생활금융 검색형 제작 완료,2026-08-27,2026-09-27,planned-pension-tax-credit-refund,active
+keyword,IRP 중도인출,40대 이상 생활금융 검색형 제작 완료,2026-08-27,2026-09-27,planned-irp-early-withdrawal,active
+keyword,연금저축 중도해지 세금,40대 이상 생활금융 검색형 제작 완료,2026-08-27,2026-09-27,planned-pension-early-termination,active
+keyword,연금저축펀드 연금저축보험 차이,40대 이상 생활금융 검색형 제작 완료,2026-08-27,2026-09-27,planned-pension-fund-vs-insurance,active
+keyword,IRP 이전 방법,40대 이상 생활금융 검색형 제작 완료,2026-08-27,2026-09-27,planned-irp-transfer,active
+keyword,카카오톡 백업 복구,40대 이상 디지털 문제 해결형 제작 완료,2026-08-27,2026-09-27,planned-kakaotalk-backup-restore,active

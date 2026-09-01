@@ -1,0 +1,43 @@
+request_mode: 키워드발굴
+distribution_goal: 혼합
+content_role: {primary: 유입, secondary: 신뢰}
+post_type: 검색정보
+content_engine: traffic
+engine_evidence:
+  realtime_signal: "8월 말 냉방 사용 감소기와 장기 보관 준비 시점. LG전자가 2026-06-18 공식 장기 보관 가이드를 갱신함"
+  purchase_problem: null
+  approved_affiliate_url: null
+  ad_disclosure: null
+  business_relevance: "순수 생활정보 유입형. 승인된 제휴 링크 없이 청소제·커버·필터를 판매하지 않음"
+  field_evidence: []
+topic: "여름 끝 에어컨 장기 보관 전 관리 순서"
+primary_keyword: "에어컨 사용 종료 관리"
+secondary_keywords: ["에어컨 송풍 건조", "에어컨 필터 청소", "에어컨 장기 보관", "에어컨 리모컨 건전지"]
+source_date: "2026-08-23"
+target_reader: "냉방 사용을 줄이고 내년까지 에어컨을 장기 보관하려는 가정·사무실 사용자"
+reader_scene: "올해 냉방을 끝내면서 전원만 끄고 커버를 씌워도 되는지 궁금한 상황"
+one_objection: "내부 습기가 남은 상태에서 커버를 씌우거나, 모든 필터를 물로 씻으면 냄새·변형·고장 위험을 키울 수 있다"
+promised_answer: "제조사 공식 안내에 따라 내부 건조·필터 구분·리모컨·전원을 4단계로 점검하게 한다"
+one_cta: 저장
+verified_facts:
+  - {fact: "LG전자는 에어컨을 오랫동안 사용하지 않기 전 창문을 열고 단독 공기청정 또는 송풍 운전으로 1시간 이상 환기·건조하도록 안내한다.", source_type: 공식출처, source_url: "https://www.lge.co.kr/support/solutions-20153047296738", verified_on: "2026-08-23", publishable: true}
+  - {fact: "LG전자는 극세 필터는 먼지를 제거하고 필요하면 중성세제로 씻은 뒤 직사광선을 피해 그늘에서 완전히 말리도록 안내한다.", source_type: 공식출처, source_url: "https://www.lge.co.kr/support/solutions-20153047296738", verified_on: "2026-08-23", publishable: true}
+  - {fact: "LG전자는 초미세·스모그 탈취 등 일부 기능성 필터는 물세척이 불가하므로 모델별 안내를 확인하도록 명시한다.", source_type: 공식출처, source_url: "https://www.lge.co.kr/support/solutions-20153047296738", verified_on: "2026-08-23", publishable: true}
+  - {fact: "LG전자는 장기 미사용 시 누액 방지를 위해 리모컨 건전지를 분리하고, 대기전력과 낙뢰 피해 예방을 위해 전원 플러그를 빼도록 안내한다.", source_type: 공식출처, source_url: "https://www.lge.co.kr/support/solutions-20153047296738", verified_on: "2026-08-23", publishable: true}
+  - {fact: "제품별 필터 구성과 분리·세척 방법은 다를 수 있어 제조사 사용설명서를 함께 확인해야 한다.", source_type: 공식출처, source_url: "https://www.lge.co.kr/support/solutions-20153047296738", verified_on: "2026-08-23", publishable: true}
+work_scope: {bringcare_direct: [], partner_vendor: [], owner_decision: [], unverified: []}
+photos:
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-aircon-end-of-season/lg-stand-filter-guide.jpg", kind: 설명도, role: "스탠드형 필터 분리 위치", visible_fact: "스탠드 에어컨 양쪽 필터 손잡이와 후크 분리 방향이 그림으로 표시된다", caption: "LG전자가 안내한 스탠드형 필터 분리 예시. 모델별 구조는 다를 수 있습니다.", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-aircon-end-of-season/lg-wall-filter-guide.jpg", kind: 설명도, role: "벽걸이형 필터 분리 유형", visible_fact: "A타입과 B타입 벽걸이 에어컨의 커버·필터 위치가 다르게 표시된다", caption: "벽걸이형도 구조에 따라 필터를 꺼내는 방향이 다릅니다. 자료: LG전자", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-aircon-end-of-season/lg-remote-battery.jpg", kind: 설명도, role: "리모컨 건전지 분리", visible_fact: "리모컨 뒷면 배터리 함에서 건전지를 빼는 모습이 그림으로 표시된다", caption: "장기 미사용 전에는 리모컨 건전지를 분리합니다. 자료: LG전자", mask: []}
+  - {path: "C:/Users/user/.codex/worktrees/7129/마케팅/blog/assets/2026-08-23-aircon-end-of-season/lg-unplug.jpg", kind: 설명도, role: "장기 보관 전 전원 차단", visible_fact: "콘센트에서 전원 플러그를 빼는 모습이 그림으로 표시된다", caption: "내부 건조와 필터 조립을 모두 끝낸 뒤 장기 미사용 전원을 차단합니다. 자료: LG전자", mask: []}
+related_posts: []
+public_location_scope: "대한민국"
+cost_time_publishable: false
+constraints:
+  - "LG전자 공통 안내를 참고하되, 다른 제조사·모델은 자체 설명서를 우선하도록 명시한다."
+  - "모든 필터를 물세척하도록 안내하지 않는다."
+  - "실내기 전문 분해세척을 자가 청소로 안내하지 않는다."
+output_folder: "blog/assets/2026-08-23-aircon-end-of-season"
+image_fallback: {real_photo_attempted: true, failure_reason: "제조사의 실제 모델별 공식 설명도가 독자 안전에 더 적합하여 설명도를 우선함", ai_allowed: true, disclosure_required: true}
+learning_context: {similar_post_ids: ["224377878940"], historical_performance_score: 5, cooldown_checked_on: "2026-08-23"}
